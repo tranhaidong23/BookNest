@@ -1,0 +1,16 @@
+{
+  "tests_passed": 35,
+  "tests_failed": 0,
+  "input_output_hashes_verified": true,
+  "selected_cold5_all_top10_and_metrics_independently_verified": true,
+  "sampled_source_rows_verified_against_train_user_sets": 10,
+  "shrinks_checked": [
+    10,
+    100
+  ],
+  "all_graph_self_duplicate_nonfinite_negative_checks_passed": true,
+  "full_cli_replay": false,
+  "test_read_or_evaluated": false,
+  "verifier_sha256": "b165c7ec02d1c3e7d1793ea3da133b1a57c3e3c72784dc499c30fbb67be2c83c",
+  "manifest_sha256": "bb1569a86d67025bb20afbba58687aa9f21a8a1b019aa83802b3de8f3a402016"
+}

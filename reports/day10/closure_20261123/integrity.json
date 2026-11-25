@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-11-23T14:56:35.845941+00:00",
+  "locked_hashes_verified": 88,
+  "input_hashes_verified": 5,
+  "output_hashes_verified": 32,
+  "metrics_and_evaluator_hashes_verified": true,
+  "historical_audit_manifest_and_verifier_match": true,
+  "selection_lock_precedes_test_access": true,
+  "ranking_rows_checked_in_historical_audit": 235072,
+  "full_metric_recalculation_this_check": false,
+  "new_training_or_tuning": false,
+  "test_already_exposed": true,
+  "metrics_sha256": "066c0033338072d3800f5042b5cdaf2a973958c03524eb88ea3f2e099fc10f3c"
+}

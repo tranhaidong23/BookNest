@@ -1,0 +1,12 @@
+{
+  "rows_read_back": 10000,
+  "all_fields_exact_match": true,
+  "public_catalogue_rows": 0,
+  "personal_tables_empty": true,
+  "duplicate_import_rejected": true,
+  "neon_connected": false,
+  "catalogue_sha256": "2f58d2fb4a9e5aaaf551fb675e9f28f9bca07df16fec39279494406a279bf2ec",
+  "migration_sha256": "b7b47920ed2c0870cd5d807718a9b6b06875fbae5ce992f968374f126f1eae19",
+  "import_sql_sha256": "04d4d18a0e9eae022fff837f08a5a1e3e2d05e7f27163782c9e65d24ff4dd84a",
+  "verifier_sha256": "6b0a5eaf51161ef1ba5c386e5f27d17c2109d3df32d7ff73d1fea7c9cd3166f5"
+}

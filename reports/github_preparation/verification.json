@@ -1,0 +1,12 @@
+{
+  "unit_tests_passed": 70,
+  "unit_test_seconds": 3.585,
+  "execution_scope": "local outside sandbox; no cloud or benchmark refit",
+  "sandbox_attempt": "hung in asyncio socketpair during Streamlit AppTest initialization; terminated; diagnostic run exited at 45 seconds with traceback",
+  "day10_hash_items_verified": 130,
+  "day10_hash_failures": [],
+  "clean_clone_tested": false,
+  "native_db_rerun": false,
+  "commit_created": false,
+  "pushed": false
+}

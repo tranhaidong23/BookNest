@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-19",
+  "checked_at_utc": "2026-11-19T06:37:39.688611+00:00",
+  "source_revision": "6dd165b555a7b47b2dd36743a425776e641ff50c",
+  "python": "3.11.9",
+  "pandas": "3.1.1",
+  "books": 10000,
+  "users": 53424,
+  "ratings": {
+    "rows": 5976479,
+    "duplicate_extra_rows": 0,
+    "duplicate_pairs": 0,
+    "conflicting_rating_pairs": 0
+  },
+  "invalid_rating_rows": 0,
+  "rating_unknown_book_rows": 0,
+  "books_duplicate_id_extra_rows": 0,
+  "books_duplicate_work_id_extra_rows": 0,
+  "missing_metadata": {
+    "book_id": 0,
+    "goodreads_book_id": 0,
+    "best_book_id": 0,
+    "work_id": 0,
+    "books_count": 0,
+    "isbn": 700,
+    "isbn13": 585,
+    "authors": 0,
+    "original_publication_year": 21,
+    "original_title": 590,
+    "title": 0,
+    "language_code": 1084,
+    "average_rating": 0,
+    "ratings_count": 0,
+    "work_ratings_count": 0,
+    "work_text_reviews_count": 0,
+    "ratings_1": 0,
+    "ratings_2": 0,
+    "ratings_3": 0,
+    "ratings_4": 0,
+    "ratings_5": 0,
+    "image_url": 0,
+    "small_image_url": 0
+  },
+  "isbn_checks": {
+    "isbn": {
+      "missing": 700,
+      "present": 9300,
+      "raw_text_not_valid_isbn": 6610,
+      "raw_scientific_notation_rows": 0,
+      "raw_shorter_than_10_digits_rows": 6601,
+      "note": "Checks raw text only: scientific notation and possibly lost leading zeros are source serialization issues. Do not conclude the underlying books have invalid ISBNs. No repair applied; lost precision cannot be assumed recoverable."
+    },
+    "isbn13": {
+      "missing": 585,
+      "present": 9415,
+      "raw_text_not_valid_isbn": 9415,
+      "raw_scientific_notation_rows": 9410,
+      "raw_shorter_than_10_digits_rows": 0,
+      "note": "Checks raw text only: scientific notation and possibly lost leading zeros are source serialization issues. Do not conclude the underlying books have invalid ISBNs. No repair applied; lost precision cannot be assumed recoverable."
+    }
+  },
+  "year_flags": {
+    "missing_or_non_numeric": 21,
+    "non_positive": 31,
+    "after_2017_snapshot": 0,
+    "note": "Flags for review, not proof of error; BCE dates may be legitimate."
+  },
+  "to_read": {
+    "rows": 912705,
+    "duplicate_extra_rows": 0,
+    "duplicate_pairs": 0,
+    "conflicting_rating_pairs": 0,
+    "unknown_book_rows": 0,
+    "unknown_user_rows": 0,
+    "rows_also_in_ratings": 2200,
+    "note": "Want-to-read is a separate signal, not a star rating or automatic negative."
+  },
+  "tags": {
+    "rows": 34252,
+    "duplicate_id_extra_rows": 0,
+    "empty_names": 0,
+    "book_tag_rows": 999912,
+    "duplicate_book_tag_extra_rows": 8,
+    "negative_counts": 6,
+    "zero_counts": 0,
+    "unknown_book_rows": 0,
+    "unknown_tag_rows": 0,
+    "note": "Shelves include reading status and personal labels; not all are genres."
+  },
+  "rating_distribution": {
+    "1": 124195,
+    "2": 359257,
+    "3": 1370916,
+    "4": 2139018,
+    "5": 1983093
+  },
+  "user_rating_count_quantiles": {
+    "0.0": 19.0,
+    "0.25": 96.0,
+    "0.5": 111.0,
+    "0.75": 128.0,
+    "1.0": 200.0
+  },
+  "book_rating_count_quantiles": {
+    "0.0": 8.0,
+    "0.25": 155.0,
+    "0.5": 248.0,
+    "0.75": 503.0,
+    "1.0": 22806.0
+  },
+  "observed_pair_density": 0.011186880428271938,
+  "top_one_percent_books_rating_share": 0.1708705075346203,
+  "description_column_present": false,
+  "ratings_timestamp_present": false,
+  "rated_books_not_in_catalogue": 0,
+  "unverified": [
+    "cover URL availability",
+    "description source coverage and matching",
+    "public display rights for third-party book text/covers",
+    "off-device backup"
+  ],
+  "quality_metrics": null,
+  "models_trained": false,
+  "raw_hashes_verified_before_and_after": true
+}

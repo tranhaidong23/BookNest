@@ -1,0 +1,91 @@
+{
+  "catalogue_books": 10000,
+  "catalogue_items_without_train": 0,
+  "cold_users_absent_from_train": true,
+  "development_train_only_users": 0,
+  "export_readback_equal": true,
+  "full_input_reversal_and_label_perturbation_assignment_equal": true,
+  "models_trained": false,
+  "partition_exhaustive_disjoint": true,
+  "partitions": {
+    "cold_test_ineligible": {
+      "books": 0,
+      "rows": 0,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 0
+    },
+    "cold_test_support": {
+      "books": 8721,
+      "rows": 53430,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 5343
+    },
+    "cold_test_target": {
+      "books": 10000,
+      "rows": 543667,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 5343,
+      "users_without_positive_target": 1
+    },
+    "cold_validation_ineligible": {
+      "books": 0,
+      "rows": 0,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 0
+    },
+    "cold_validation_support": {
+      "books": 8669,
+      "rows": 53420,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 5342
+    },
+    "cold_validation_target": {
+      "books": 9994,
+      "rows": 545103,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "train": {
+      "books": 10000,
+      "rows": 3863209,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 42739
+    },
+    "warm_test": {
+      "books": 9999,
+      "rows": 458825,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 42739,
+      "users_without_positive_target": 196
+    },
+    "warm_validation": {
+      "books": 10000,
+      "rows": 458825,
+      "unseen_train_item_rows": 0,
+      "unseen_train_items": 0,
+      "users": 42739,
+      "users_without_positive_target": 229
+    }
+  },
+  "quality_metrics": null,
+  "source_ids_labels_preserved": true,
+  "source_rows": 5976479,
+  "source_users": 53424,
+  "support_nested_3_5_10": true,
+  "targets_shared_across_support_sizes": true,
+  "test_labels_inspected_for_structural_audit_only": true,
+  "user_groups": {
+    "cold_test": 5343,
+    "cold_validation": 5342,
+    "development": 42739
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description_feature_approved": false,
+  "inputs": {
+    "data\\processed\\catalogue_v1\\catalogue.jsonl": "869aa530a03b016a0795cfc1f752a927f59dc5df5f49d4054e6a4e9806c1de55",
+    "data\\processed\\descriptions_20261119\\xml_matches.csv": "fc13b453894721b931d693bc50eccf6bc4e516dfbce0b2a0a16a61ab6a5ce9c4",
+    "data\\raw\\goodbooks-10k-xml\\books_xml.zip": "f9724dddfbd4d744e97977c4d631684b2aa238739893749ffc66b7cb8f5f3a66",
+    "docs\\CATALOGUE_POLICY.md": "ac044d05eb5fa6befd0ac2de5d62b52e0c80d9307ab887a9963b33f8d8415896",
+    "docs\\DATA_MANIFEST.json": "e77f3113e87b80cbb64bd30af207df3b38857a2ae483cc8657489f50427b1900"
+  },
+  "models_trained": false,
+  "outputs": {
+    "data\\processed\\day03_v1\\book_counts.csv": "97d9f64b0b932430a0abc084aed50d3505878011e4d4bac031604e8da4ef0c31",
+    "data\\processed\\day03_v1\\book_tags_clean.csv": "ed32da8a5e8a47aa027f04e00d02bc03da4e57e8e7cdd3a51807331a014f7ad6",
+    "data\\processed\\day03_v1\\book_tags_excluded.csv": "56248ba1f56a96e99e3703e5472382b156cec3df71fe58213db71f51c7c72f65",
+    "data\\processed\\day03_v1\\books.jsonl": "00d8298a1a2447076bedf8164bd5185325791a6fe4aeb025450c09480b784d96",
+    "data\\processed\\day03_v1\\ratings.csv": "1ee8a97172bd6d97147a30d9cfb3029ac240bd27ba2aa9365981c051c65113f8",
+    "data\\processed\\day03_v1\\tags.csv": "87f316957564fa21c316a4f50afc87f07906f478f990eec027aaca00c536c449",
+    "data\\processed\\day03_v1\\to_read.csv": "d8aa721f08ede9f457f5895439b2415f0d1cb16e86a9e86de3f5f477a6c2fd2f",
+    "data\\processed\\day03_v1\\user_counts.csv": "d61ddacb8004aa1e0cd0e4814688fe2db814e9b263896fda613ac731cf6842a5"
+  },
+  "pandas": "3.1.1",
+  "python": "3.11.9",
+  "ratings_byte_identical": true,
+  "raw_zip_catalogue_verified_before_after": true,
+  "script_sha256": "da59a835bac310a1cc9770fe5127737b770666a7f7cec86be96c892715a9f4ab",
+  "source_revision": "6dd165b555a7b47b2dd36743a425776e641ff50c",
+  "split_created": false,
+  "tags_feature_approved": false,
+  "to_read_not_used_as_negative": true,
+  "version": "day03_v1"
+}

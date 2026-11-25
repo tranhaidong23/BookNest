@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-25T08:56:55.483215+00:00",
+  "python": "3.11.9",
+  "platform": "Windows",
+  "packages": {
+    "streamlit": {
+      "expected": "1.67.0",
+      "installed": "1.67.0"
+    },
+    "pandas": {
+      "expected": "3.1.1",
+      "installed": "3.1.1"
+    },
+    "numpy": {
+      "expected": "2.4.6",
+      "installed": "2.4.6"
+    },
+    "scipy": {
+      "expected": "1.17.0",
+      "installed": "1.17.0"
+    },
+    "psycopg": {
+      "expected": "3.3.9",
+      "installed": "3.3.9"
+    },
+    "psycopg-binary": {
+      "expected": "3.3.9",
+      "installed": "3.3.9"
+    }
+  },
+  "verified_hashes": {
+    "locked": 88,
+    "inputs": 5,
+    "outputs": 32,
+    "evidence": 5
+  },
+  "failures": [],
+  "passed": true,
+  "scope": "Existing local environment and Day10 file integrity only",
+  "training_or_metric_recalculation": false,
+  "clean_environment_rebuild": false
+}

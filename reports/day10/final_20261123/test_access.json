@@ -1,0 +1,5 @@
+{
+  "first_access_started_at_utc": "2026-11-23T08:10:45.383810+00:00",
+  "note": "Written before first test input read; test is now exposed, including if run fails.",
+  "selection_lock_sha256": "a34e71284293ff4d1ce0e09ec09823f8ec16df3c79bf2dd6ab0c1783b62f0bba"
+}

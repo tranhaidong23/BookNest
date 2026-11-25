@@ -1,0 +1,13 @@
+{
+  "tests_passed": 30,
+  "tests_failed": 0,
+  "manifest_inputs_outputs_verified": true,
+  "cold_k5_top10_matches_independent_full_catalogue_sort": true,
+  "cold_k5_ranking_metrics_independently_recomputed": true,
+  "cold_k5_rating_metrics_independently_recomputed": true,
+  "all_scenarios_full_cli_replay": false,
+  "test_files_read": false,
+  "test_evaluated": false,
+  "verifier_sha256": "da39dc40a4dca8315ffa038a325a60947e932eb367e37b80ec4e6ea54f9999a7",
+  "manifest_sha256": "0281613548ec4550651660db81e7ecc27d54ad25441e2e8d2a5de7eb1dbb874a"
+}

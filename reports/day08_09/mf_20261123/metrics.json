@@ -1,0 +1,166 @@
+{
+  "additional": {
+    "cold_validation_k10": {
+      "catalogue_coverage": 0.0551,
+      "ndcg": 0.1286475496277317,
+      "precision": 0.12113836360232166,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 1534,
+        "mae": 0.7135782525541107,
+        "pairs": 545103,
+        "rmse": 0.9054837435355891
+      },
+      "recall": 0.017005100118759605,
+      "recommended_distinct_books": 551,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "cold_validation_k3": {
+      "catalogue_coverage": 0.0366,
+      "ndcg": 0.07127687768478311,
+      "precision": 0.0687511701928478,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 143,
+        "mae": 0.7404686061065598,
+        "pairs": 545103,
+        "rmse": 0.9318600346900167
+      },
+      "recall": 0.009716216661421785,
+      "recommended_distinct_books": 366,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "warm_validation": {
+      "catalogue_coverage": 0.1067,
+      "ndcg": 0.01780492327219978,
+      "precision": 0.013716772524111975,
+      "ranking_users": 42510,
+      "rating_metrics": {
+        "clipped_predictions": 13556,
+        "mae": 0.6491065980477402,
+        "pairs": 458825,
+        "rmse": 0.8494494845549295
+      },
+      "recall": 0.01835548084680414,
+      "recommended_distinct_books": 1067,
+      "users": 42739,
+      "users_without_positive_target": 229
+    }
+  },
+  "als_epochs": 8,
+  "catalogue_items_without_train": 0,
+  "ci_scope": "validation post-selection, not independent test",
+  "fixed_bias_lambda": 50,
+  "grid_cold5": {
+    "d16_l10": {
+      "catalogue_coverage": 0.0432,
+      "ndcg": 0.09724727974694271,
+      "precision": 0.09237970417524807,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 364,
+        "mae": 0.731018413044498,
+        "pairs": 545103,
+        "rmse": 0.922190102763472
+      },
+      "recall": 0.012989411392042512,
+      "recommended_distinct_books": 432,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "d16_l50": {
+      "catalogue_coverage": 0.0024,
+      "ndcg": 0.02431814344728677,
+      "precision": 0.02527616551207639,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 0,
+        "mae": 0.7417830984892585,
+        "pairs": 545103,
+        "rmse": 0.9319554718725741
+      },
+      "recall": 0.0036654124056866976,
+      "recommended_distinct_books": 24,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "d32_l10": {
+      "catalogue_coverage": 0.0516,
+      "ndcg": 0.09478840276013975,
+      "precision": 0.08874742557573488,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 259,
+        "mae": 0.7332049897286174,
+        "pairs": 545103,
+        "rmse": 0.9241019222028735
+      },
+      "recall": 0.012530846713050717,
+      "recommended_distinct_books": 516,
+      "users": 5342,
+      "users_without_positive_target": 1
+    },
+    "d32_l50": {
+      "catalogue_coverage": 0.0021,
+      "ndcg": 0.023788095275694848,
+      "precision": 0.024770642201834864,
+      "ranking_users": 5341,
+      "rating_metrics": {
+        "clipped_predictions": 0,
+        "mae": 0.741815085149023,
+        "pairs": 545103,
+        "rmse": 0.931957259739518
+      },
+      "recall": 0.0035959041813428297,
+      "recommended_distinct_books": 21,
+      "users": 5342,
+      "users_without_positive_target": 1
+    }
+  },
+  "mu": 3.9189875567177443,
+  "paired_delta_vs": {
+    "item_knn": {
+      "ndcg": {
+        "mean_delta": -0.37462616501916396,
+        "percentile_95": [
+          -0.38192987687399754,
+          -0.36749146419217177
+        ],
+        "users": 5341
+      },
+      "recall": {
+        "mean_delta": -0.053430338570086916,
+        "percentile_95": [
+          -0.05456122302499064,
+          -0.052208966801670566
+        ],
+        "users": 5341
+      }
+    },
+    "popularity": {
+      "ndcg": {
+        "mean_delta": -0.15869964162099737,
+        "percentile_95": [
+          -0.16481356838470346,
+          -0.1523365263333431
+        ],
+        "users": 5341
+      },
+      "recall": {
+        "mean_delta": -0.021863704622512355,
+        "percentile_95": [
+          -0.0226883738257283,
+          -0.020966580587968867
+        ],
+        "users": 5341
+      }
+    }
+  },
+  "seed": 20261123,
+  "selected": "d16_l10",
+  "test_evaluated": false,
+  "train_rows": 3863209,
+  "train_users": 42739
+}

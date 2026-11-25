@@ -1,0 +1,42 @@
+{
+  "fit_seconds": 29.7726145000197,
+  "inference": {
+    "s10_k50": {
+      "p50_ms": 0.60885,
+      "p95_ms": 1.6711,
+      "users": 5342
+    },
+    "s10_k200": {
+      "p50_ms": 0.8605,
+      "p95_ms": 1.7286549999999998,
+      "users": 5342
+    },
+    "s100_k50": {
+      "p50_ms": 0.70495,
+      "p95_ms": 1.7258649999999998,
+      "users": 5342
+    },
+    "s100_k200": {
+      "p50_ms": 0.73665,
+      "p95_ms": 1.8441849999999997,
+      "users": 5342
+    },
+    "cold_validation_k3": {
+      "p50_ms": 0.6381,
+      "p95_ms": 1.6573949999999995,
+      "users": 5342
+    },
+    "cold_validation_k10": {
+      "p50_ms": 0.86875,
+      "p95_ms": 1.9058,
+      "users": 5342
+    },
+    "warm_validation": {
+      "p50_ms": 1.5257,
+      "p95_ms": 3.6067499999999995,
+      "users": 42739
+    }
+  },
+  "platform": "Windows-10-10.0.26300-SP0",
+  "scope": "cached graph; score+exclude+full-catalogue sort Top10; single process; excludes load/fit/metrics"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "book_id": 113,
+    "url": "https://en.wikipedia.org/wiki/Catch-22",
+    "retrieved_at_utc": "2026-11-19T07:42:20.548037+00:00",
+    "path": "data\\external\\wikipedia\\day02_pilot\\113.html",
+    "bytes": 348004,
+    "sha256": "44fb41e696d245cdab20d8e3a3c8ddcb5f4a23295531a21a40070823e5de5078",
+    "revision_candidates": [
+      "1384221665"
+    ],
+    "status": "downloaded",
+    "identity_scope": "work_only",
+    "public_approved": false,
+    "revision_id": "1384221665",
+    "declared_text_license": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1384221665",
+    "license_scope_note": "Page text declaration; images and third-party excerpts not approved; selected text still needs review"
+  },
+  {
+    "book_id": 400,
+    "url": "https://en.wikipedia.org/wiki/Neuromancer",
+    "retrieved_at_utc": "2026-11-19T07:42:22.509107+00:00",
+    "path": "data\\external\\wikipedia\\day02_pilot\\400.html",
+    "bytes": 542115,
+    "sha256": "3e6dca3dac52887aa670ffe60e1399480062d89f41027471e63ee26626ef4f58",
+    "revision_candidates": [
+      "1384220887"
+    ],
+    "status": "downloaded",
+    "identity_scope": "work_only",
+    "public_approved": false,
+    "revision_id": "1384220887",
+    "declared_text_license": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1384220887",
+    "license_scope_note": "Page text declaration; images and third-party excerpts not approved; selected text still needs review"
+  },
+  {
+    "book_id": 413,
+    "url": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+    "retrieved_at_utc": "2026-11-19T07:42:24.241763+00:00",
+    "path": "data\\external\\wikipedia\\day02_pilot\\413.html",
+    "bytes": 392746,
+    "sha256": "8554f171427579de7ebb411c5463c2dbe33e8e5ea7638e79de74d9c8121ffc54",
+    "revision_candidates": [
+      "1386075581"
+    ],
+    "status": "downloaded",
+    "identity_scope": "work_only",
+    "public_approved": false,
+    "revision_id": "1386075581",
+    "declared_text_license": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1386075581",
+    "license_scope_note": "Page text declaration; images and third-party excerpts not approved; selected text still needs review"
+  }
+]

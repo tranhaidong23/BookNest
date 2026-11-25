@@ -1,0 +1,26 @@
+{
+  "all_factor_arrays_finite": true,
+  "all_objective_traces_nonincreasing": true,
+  "catalogue_v1_hash_unchanged": true,
+  "full_training_cli_replay": false,
+  "hashes_verified": true,
+  "independent_augmented_lstsq_metrics_match": true,
+  "manifest_sha256": "91adfc80457b5b2768fb3117673c6645137973f2ef159a5960f945cf6ee00a0a",
+  "python": "3.11.9",
+  "scipy": "1.17.0",
+  "selected_cold5_ranking_users_checked": 5341,
+  "selected_cold5_rating_pairs_checked": 545103,
+  "selected_cold5_top10_users_checked": 5342,
+  "selected_item_equations_augmented_lstsq_checked": 20,
+  "supporting_code_sha256": {
+    "requirements.txt": "0f113e2961cb3ce1e5da261beb6c511dfb4086f14e59c8c43489da7997530881",
+    "scripts/audit_extended.py": "cd1602ea18e000d7b0734d37383bd57e3ba584fa7e0edd39e4c27668affe3103",
+    "scripts/day05_baselines.py": "f576c944afb7ecd2d897e4e745def37ffa9baa4249d52f3afc39c7dde23bc04a",
+    "scripts/day06_item_knn.py": "a6c62a2227e5cc9b1975a7dc45ec99f1beb8f7394a69c9a4457c50ab2964c4b4",
+    "scripts/prepare_day03.py": "2c5b19f00168d75dc660803281b252f3d59da007f23634ba54d4305f9c6d8974",
+    "tests/test_day08.py": "bcc191ac03dc82acd0ca1a47885e87e84fd0d5f97756c4c3e25357a4ccd16055"
+  },
+  "test_read_or_evaluated": false,
+  "unit_tests_passed": 40,
+  "verifier_sha256": "e709574ddb0da151eb2063e71ae50f8c15c72f1b5643c3a5229066c46a3676a0"
+}

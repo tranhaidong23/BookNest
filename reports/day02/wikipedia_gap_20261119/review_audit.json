@@ -1,0 +1,75 @@
+{
+  "sample_size": 20,
+  "work_matches": 8,
+  "narrative_candidates": 6,
+  "thin_sources": 2,
+  "held": 12,
+  "edition_verified": 0,
+  "public_ready": 0,
+  "strata": {
+    "hold_volume_specificity": {
+      "sample": 4,
+      "work_matches": 3,
+      "narrative_candidates": 2
+    },
+    "missing_source": {
+      "sample": 12,
+      "work_matches": 4,
+      "narrative_candidates": 3
+    },
+    "needs_more_evidence": {
+      "sample": 4,
+      "work_matches": 1,
+      "narrative_candidates": 1
+    }
+  },
+  "initial_error_attempts": 9,
+  "final_search_errors": 0,
+  "overlay_sha256": "903cc13616f17e138cfe8db94ee7ee437346b461999f1eaa7346587440e1e428",
+  "frozen_catalogue_sha256": "869aa530a03b016a0795cfc1f752a927f59dc5df5f49d4054e6a4e9806c1de55",
+  "raw_hashes_verified": true,
+  "quality_metrics": null,
+  "limits": "Fixed stratified pilot; not population coverage or independent matching accuracy.",
+  "artifact_manifest": [
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\matched_revisions.json",
+      "sha256": "b0b3f3a0c38d32af07844786dcce61856058efd81aa0bec320ebf3bfe2f80d12"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\2215.json",
+      "sha256": "9e9a38c940b556188d586aba4614f469ae897c6a56da470d5e78ac128680057f"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\3546.json",
+      "sha256": "e333320e44913ac71349b180e4ac3b7023218f187df227676c6eac37c9664ff8"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\3636.json",
+      "sha256": "745bdbdae74d4c2911714845975f36dff2884df5b9afa33f3b92fd4dae4bdb2c"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\4622.json",
+      "sha256": "c685da586cac22abf9f2fe18312d9489bed7e8c40c682183c36baeb8be896c11"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\5752.json",
+      "sha256": "760bfcf4e2c1327b4c7987e255b649db58f81f8f0e16325962207b4aee41cfe2"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\6390.json",
+      "sha256": "3a1e73abf5d3c0e14c632dedc30d91c7aad128f7fa3464a599ee44af23a082f5"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\6716.json",
+      "sha256": "437601069e70ce94d0b7219a92261b3fa7e2becfc599a2e8fd7333cbbb86b403"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\7408.json",
+      "sha256": "bfb864f5a4c36971b27e17530bd53bb20046b8f499c6cf25da99836fd568c5d7"
+    },
+    {
+      "path": "data\\external\\wikipedia\\gap_20261119\\7696.json",
+      "sha256": "21570730a491f05dbc7a49b1f3da857e0760c3226f5f3a60b58d73931aca48c4"
+    }
+  ]
+}

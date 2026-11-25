@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://openlibrary.org/api/books?bibkeys=ISBN%3A1905654588%2CISBN%3A0684823780%2CISBN%3A0385344430%2CISBN%3A0007251866%2CISBN%3A0140449108%2CISBN%3A0752858556%2CISBN%3A0393327655%2CISBN%3A034551176X%2CISBN%3A0446401056%2CISBN%3A8423648990%2CISBN%3A0752876813%2CISBN%3A039915597X%2CISBN%3A0375725768%2CISBN%3A0062409204%2CISBN%3A0451190556%2CISBN%3A0671019708%2CISBN%3A1846054729%2CISBN%3A0345548515&jscmd=details&format=json",
+    "retrieved_at_utc": "2026-11-19T07:00:32.874206+00:00",
+    "status": 200,
+    "body_sha256": "7da5ed93aaf0cb046d0a753f33fa207dc67865c0aa2db9e4ffaef759a3c222ad",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\df4937755c8712e514b68ad16d7444dba3e117378dddc2df03a8d47201a73510.json",
+    "cache_sha256": "fff79f87458e30ae53227f14021c62dd4d0a0c614ecf387cfcce7243a22e8125"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL14909414W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:35.030611+00:00",
+    "status": 200,
+    "body_sha256": "c38312240e7ef9e3e72dacdacff7ed14ace91e7ae38f12e97736bf01fedfa3a1",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\4f87760326caa8ffbda264b52ea22f087b4c399fd34a82744e23cb9bc17e5d19.json",
+    "cache_sha256": "609e7bf12345a1389525d5bb5b5ede851a5674ab9ddc2d90f748b3434a26186d"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL71056W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:36.973498+00:00",
+    "status": 200,
+    "body_sha256": "83d18c38e3ab79c6bbf6652824b4ceb2e8863be78ea13dce0696a3d13e0cc77b",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\f7392ba2367ba60038c483a571d9f5b4d4e6e727829a8adf08395835cd78134c.json",
+    "cache_sha256": "e479e1de40084e8348bb4bdb1803f67e80cc26108210fdbc5413f1bf4438247b"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL20339383W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:38.922993+00:00",
+    "status": 200,
+    "body_sha256": "051d2896ee59bd343d502e49210f0b0282ca75a0c5f00de0c93e25c71f528760",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\bb72e246bbc8ae05787ce0e53bd6a5f0e37c1785ffda5723d1ffd4012a51cf16.json",
+    "cache_sha256": "0a0e17bb7a39bb2014d0d66c5e74d35241327548bcb6897ff3ee2d361a3f0c97"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL31957672W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:40.799377+00:00",
+    "status": 200,
+    "body_sha256": "b619d9aa120ac1fc065777d04747255113e2a030249b87216823a0663645f598",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\20b2d490398751c3a9f6d2f1c797475279fc8e13784caa132c16023fbbe37e4d.json",
+    "cache_sha256": "af938861867ebcdc8b37abf59b7daa76c1126ee178d88991d14748d491960e86"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL15366912W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:42.618027+00:00",
+    "status": 200,
+    "body_sha256": "8780b088241f1e9697cf3bd62b1d29dc6f1dfb15a5664947bb955f7aacd63c23",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\7bbd61dfce1254073cf51f6518d5d7aa7a50ff5c0099975c1f14efdfcceb0107.json",
+    "cache_sha256": "75c9bbc7b59cb6812a475f41095521118ed54b970d60042557c7d4e6f7881ca1"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL2664902W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:44.564129+00:00",
+    "status": 200,
+    "body_sha256": "e96d83513e131c8fe2c500bce26cf99965dfc65fb9f7815cab1cd2d2f3e868eb",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\c4859fa2681cae3b2aace01ac9c9d23583c82677b07cbb9c7ecf7670fd2bfa1c.json",
+    "cache_sha256": "5b6816d85d00781f95e8c10e6b00f336fb2287d34260a71571dbc42a26fc32ce"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL15138751W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:46.405107+00:00",
+    "status": 200,
+    "body_sha256": "a48fd5f335cad7f463688a4e9de2e403f7e18b9da441773c6c04c67ea7c63463",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\3ac554fc74679b718217b8a321e13437e13deee718a6bfe544f67f7550547f80.json",
+    "cache_sha256": "5a7277e0745d758d894f33ba33a746b147a2930d88b2415b4d5e3313cbad15dc"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL18632678W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:49.356179+00:00",
+    "status": 200,
+    "body_sha256": "498d07b9372df3574c69c9a6c5ee68a6fa7df14458160ee4c1444bbf84074f35",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\fbc03bd05152fce041fc23b52c1d732233a709a0ea31e955ac8fabaf9b01495e.json",
+    "cache_sha256": "3d3dadb80a58f6306775b2f5899234781c84ee4a8b1609a5e1141c40c0ded7fd"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL15619427W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:51.285183+00:00",
+    "status": 200,
+    "body_sha256": "9c5ed0b3f41d02496c47b524cb431fe4c8101432d2af76a9a7c63b85de48024a",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\222275d731d07e545bb9e293dde029cbe74edeac5b6f51cfb74b687235cdfc3a.json",
+    "cache_sha256": "d3ca211b90ce16e5f6a542075d79d8e0c6740c176c549e52c424f32ec01196fb"
+  },
+  {
+    "url": "https://openlibrary.org/search.json?title=Min+kamp+1&author=Karl+Ove+Knausg%C3%A5rd&fields=key%2Ctitle%2Cauthor_name&limit=5",
+    "retrieved_at_utc": "2026-11-19T07:00:53.159135+00:00",
+    "status": 200,
+    "body_sha256": "a68a51a345fbaef76433e2dc9c3af3f7f73ee9f366a07aa6e9eec27944a0f069",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\19a4df6958e68d47d30e4da0690c95a6dcee6791d5f853bbdb1f1dcf3b2bbbec.json",
+    "cache_sha256": "0e590ec0ada67d7eef7ac642830f37965e24de48ba829177c2a56a0a9d0b5b2d"
+  },
+  {
+    "url": "https://openlibrary.org/search.json?title=Before+Jamaica+Lane&author=Samantha+Young&fields=key%2Ctitle%2Cauthor_name&limit=5",
+    "retrieved_at_utc": "2026-11-19T07:00:55.182424+00:00",
+    "status": 200,
+    "body_sha256": "c5b261224b51b4b71a884bdd561fb994b1b0d2a11e9c9a5f8394c353c0d37ea2",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\499cc82bdf22e6b6da3000a783d0a551f1f1924815f08d0ed9d40ff146c8b07e.json",
+    "cache_sha256": "eee18d5bfb3d9ad8cacdb73089f5a2a60e86dedf270c6df89c3573a686082a3e"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL6036830W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:57.157258+00:00",
+    "status": 200,
+    "body_sha256": "d849fa5e9909d67fabc939f7ee12739e8d1ceca9143a09d129860da557aa318c",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\874f4e9ee4cef7eb5ad450b878467e6c6de1d9b6a166cc5cae94eea69e54bff8.json",
+    "cache_sha256": "10435979103d8f94303af298651dbef00e4982822b7611c2ac3cf25d2463f2ea"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL56766W.json",
+    "retrieved_at_utc": "2026-11-19T07:00:59.077977+00:00",
+    "status": 200,
+    "body_sha256": "ed98da0bff5715f1aa76b17bd368c1d1f27e0b42b3711c5972307979c379ecd5",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\08ea4cec9a117598e61b7ee53f6d17752d37502ee345bab6b62683a54a68aab6.json",
+    "cache_sha256": "708f5e4ed8583b37067acfd0d19b11c8e2779b752f2c8499cd39861fcdc57638"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL14852255W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:01.010654+00:00",
+    "status": 200,
+    "body_sha256": "dba7ee956c1addd3c3994a6fb0e64b9007a2870481cbf15b2b172c3b4b2bcc38",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\332d4bcff7d9a95c7e63305b1d6d6229b73c4e8033d3241b97bd036c18269cc7.json",
+    "cache_sha256": "7661565d7cab19079aa49fe8f63d255f0ed188312e31ab0edce1976cabdff160"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL14856874W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:02.951508+00:00",
+    "status": 200,
+    "body_sha256": "a521c9ec48e2dd2228edd39064f6bd22ffbc1435ee922aa34da404413f94ba8f",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\53fa98fa15cc3a5d9a654f8858015ecb505ef4de1f70e2d5b6aa0a80ffb0c9ed.json",
+    "cache_sha256": "e96bb9532d55cd12e300a4a4a646126a0c36e29bc696ca6d333ed5cc0415017f"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL19351465W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:04.934000+00:00",
+    "status": 200,
+    "body_sha256": "99980fdc488a68512953cf9ed9276c3c0fbda06320d55966da35af7897633d21",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\7d3aa5c5c5c48b97805e31b5f00386466f703f77febd0c3e08a3aa2601ef3ccd.json",
+    "cache_sha256": "1a975ec17ed02a1a759cd2176de9b1e24b203652cbf56255efb19edf2628c50d"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL149095W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:07.315318+00:00",
+    "status": 200,
+    "body_sha256": "1135ec35c133a4da8a9496ccc2dfa994b21ab787eaccd3a06e0673250015a476",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\af383cc0da8cbeedb749da93ce638254edbc966eaba7608a42cd7619ab23a096.json",
+    "cache_sha256": "823cf23c439a92f5514c9baf9423153869d883d2069e07a0f92255d0b5ea6138"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL491796W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:09.460210+00:00",
+    "status": 200,
+    "body_sha256": "25e89b99085d7b8e6b4ec5dff234f26e13c60f9f0bdd7cab3bceabb9b93cdd83",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\5e2c8d0828dd8fd15b325c6967d6916add9f76bc8f670ac0355a912c0fcd28e9.json",
+    "cache_sha256": "098ef7cc3e56588e2b330390ad6c8ec1a180f2bc77bbae938673c063faf8b08b"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL14920138W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:11.490655+00:00",
+    "status": 200,
+    "body_sha256": "68291639a8744480df50cabe6e922276b1f35c9ab47ea07cfb5638d4db22e653",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\1a32e554ac26109695ebeb4ffa2ab1fd93381734b8b32709feb228309d5e8422.json",
+    "cache_sha256": "7dadd029932a9c422603ed52ab60258f6f110f2ea12c78c7310159dcbd399b93"
+  },
+  {
+    "url": "https://openlibrary.org/works/OL19347801W.json",
+    "retrieved_at_utc": "2026-11-19T07:01:13.408807+00:00",
+    "status": 200,
+    "body_sha256": "1594d9d60daf4776d1052219f7d9f36b00b3e207bae3c1d5d1a746c9ad9d288a",
+    "path": "data\\external\\openlibrary\\pilot_20261119\\5f5d90124c81fee7a97d9c6ccf2fd594d1fbd5f4b3f45fdbc2fd8e634b7d425c.json",
+    "cache_sha256": "ab53f39810afb5244ff906836b4215b5127a2e256640065a4a8b18217ba1261b"
+  }
+]

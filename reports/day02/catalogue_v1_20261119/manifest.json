@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-11-19T07:39:44.358720+00:00",
+  "catalogue_version": "v1",
+  "benchmark_books": 10000,
+  "product_screening_candidates": 9651,
+  "content_status_counts": {
+    "unreviewed_text_candidate": 9642,
+    "title_flag_resolved_only": 9,
+    "missing_source": 315,
+    "needs_more_evidence": 22,
+    "hold_volume_specificity": 11,
+    "reject_placeholder": 1
+  },
+  "public_intro_ready": 0,
+  "all_book_covers_require_placeholder": true,
+  "local_catalogue_frozen": true,
+  "day02_full_public_catalogue_acceptance": false,
+  "raw_and_xml_hashes_verified_before_after": true,
+  "quality_metrics": null,
+  "artifact": {
+    "path": "data\\processed\\catalogue_v1\\catalogue.jsonl",
+    "sha256": "869aa530a03b016a0795cfc1f752a927f59dc5df5f49d4054e6a4e9806c1de55",
+    "bytes": 9291172
+  },
+  "inputs": {
+    "docs\\DATA_MANIFEST.json": "e77f3113e87b80cbb64bd30af207df3b38857a2ae483cc8657489f50427b1900",
+    "data\\processed\\descriptions_20261119\\xml_matches.csv": "fc13b453894721b931d693bc50eccf6bc4e516dfbce0b2a0a16a61ab6a5ce9c4",
+    "data\\processed\\review_20261119\\review_decisions.json": "9cad96f938246057c7cb38101065c38e7d43e495982a8f46d3786ac4b6bd0a3d",
+    "reports\\day02\\review_20261119\\review_audit.json": "e19e1266dcaa2ab4ac40da8e59cc5d4c21a2124c77382402de78a17af509e2ca"
+  },
+  "script_sha256": "bc91bc3f1d1bfd0f86324ff3c0d0eefa069a2f0af6a233aa013abf5278053e49"
+}

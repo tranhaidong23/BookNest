@@ -1,0 +1,10 @@
+{
+  "command": "python -B -m unittest discover -s tests",
+  "tests_passed": 68,
+  "exit_code": 0,
+  "source_sha256": {
+    "tests/test_content_review.py": "83ad41bff200b0de76ffa140e30001b88bffa0e041fb2e4647a6dacf57174b5e",
+    "booknest/content_review.py": "9163037ee1fa73e52f283eb63743fe84c64808826b6192725852a4b65f7dc107",
+    "scripts/prepare_content_review.py": "3d34a05cf961ea73afa974f4cc9d12d1a827238696f3bc145cf1ebe1bd39b0c5"
+  }
+}

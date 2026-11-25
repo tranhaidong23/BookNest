@@ -1,0 +1,14 @@
+# Kiểm tra nguồn — 19/11/2026
+
+Đây là ghi nhận kỹ thuật và điều kiện nguồn đã đọc, không phải kết luận pháp lý hay xác nhận quyền công khai từng nội dung.
+
+| Nguồn | Đã kiểm tra | Quyết định cho BookNest |
+|---|---|---|
+| [Goodbooks README tại revision đã pin](https://github.com/zygmuntz/goodbooks-10k/blob/6dd165b555a7b47b2dd36743a425776e641ff50c/README.md) và [books_xml](https://github.com/zygmuntz/goodbooks-10k/tree/6dd165b555a7b47b2dd36743a425776e641ff50c/books_xml) | Metadata CSV xuất từ XML. Ratings gộp các edition theo work; archive có XML chứa mô tả và ID. Đã tải archive, kiểm thực tế 10.000 XML. | Ưu tiên để audit/ghép metadata local. Lưu archive riêng, không sửa manifest CSV cũ. Không dùng review, ratings hay số đếm trong XML làm đặc trưng holdout. |
+| [Goodbooks LICENSE](https://github.com/zygmuntz/goodbooks-10k/blob/6dd165b555a7b47b2dd36743a425776e641ff50c/LICENSE) | Repository công bố CC BY-SA 4.0. Đây là tuyên bố của repository; chưa xác minh quyền đối với mọi mô tả/bìa của bên thứ ba. | Attribution và revision bắt buộc trong provenance. Trạng thái quyền mô tả/bìa vẫn `unresolved`; chưa cho phép hiển thị public. |
+| [Open Library APIs](https://openlibrary.org/developers/api) | Có API; yêu cầu cache, giới hạn mặc định 1 request/giây, không dùng API để tải metadata hàng loạt. | Chỉ pilot 20 sách, một batch ISBN, truy vấn bổ sung tuần tự cách ít nhất 1,1 giây. Không mở rộng thành 10.000 yêu cầu đơn lẻ; muốn mở rộng cần xem data dumps và điều kiện tương ứng. Không bịa email liên hệ. |
+| [Open Library Books API](https://openlibrary.org/dev/docs/api/books), [Search API](https://openlibrary.org/dev/docs/api/search) | Phân biệt work và edition; `jscmd=details` trả dữ liệu REST nhưng tài liệu ưu tiên `jscmd=data` ổn định hơn. | Dùng details cho pilot đọc mô tả, lưu response gốc; title/author search chỉ tạo ứng viên. Mô tả work không chứng minh bìa/nhà xuất bản của edition. |
+| [Open Library licensing](https://openlibrary.org/developers/licensing) | Internet Archive không khẳng định quyền sở hữu mới đối với dữ liệu, đồng thời nêu khả năng tồn tại quyền của bên khác. | Không suy luận rằng mọi mô tả hoặc bìa là public domain. Quyền vẫn chờ xác minh theo nội dung/nguồn gốc. |
+| [Google Books API](https://developers.google.com/books/docs/v1/using), [điều khoản](https://developers.google.com/books/terms) | Có tra cứu volume; tài liệu yêu cầu nhận diện bằng key/token, điều khoản có yêu cầu về phí ứng dụng và gỡ nội dung. | Nguồn dự phòng đã đọc tài liệu, chưa gọi API, chưa đo độ phủ, chưa cấu hình key. Chưa duyệt làm nguồn public. |
+
+Không scrape Goodreads hiện tại. Bản XML là snapshot lịch sử trong repository đã pin, không phải bằng chứng metadata hôm nay còn chính xác. Chưa kiểm URL bìa hoặc quyền tạo/hiển thị bản dịch tiếng Việt. Tóm lược bằng AI không tự giải quyết quyền nguồn.

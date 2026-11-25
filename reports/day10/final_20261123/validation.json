@@ -1,0 +1,14 @@
+{
+  "all_saved_ranking_top10_rows_checked": 235072,
+  "full_evaluation_cli_replay": false,
+  "independent_cold5_knn_users": 5343,
+  "independent_cold5_mf_rating_metrics": true,
+  "independent_cold5_mf_users": 5343,
+  "lock_precedes_test_access": true,
+  "locked_model_and_source_hashes_verified": true,
+  "manifest_sha256": "cbb691b3b9bc32912661b9b77857ea3c8857d5ae99de5b5884eba937d2cd6eb5",
+  "other_rating_metrics_independent_recheck": false,
+  "test_exposed": true,
+  "unit_tests_passed": 42,
+  "verifier_sha256": "5308dbd5c9db120c17fe752f5cd86a99f302e404d42e08a081ad8978ade9c96b"
+}

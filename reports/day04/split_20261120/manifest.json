@@ -1,0 +1,49 @@
+{
+  "audit_sha256": "45e56040dc84993b46a72c355776c6fff93d313fb5da629edfb0a4f9bbc04c1f",
+  "hash_pattern": "booknest|v0.1|20261120|namespace|user_id|book_id",
+  "inputs": {
+    "data\\processed\\catalogue_v1\\catalogue.jsonl": "869aa530a03b016a0795cfc1f752a927f59dc5df5f49d4054e6a4e9806c1de55",
+    "data\\processed\\day03_v2\\book_counts.csv": "97d9f64b0b932430a0abc084aed50d3505878011e4d4bac031604e8da4ef0c31",
+    "data\\processed\\day03_v2\\book_tags_clean.csv": "ed32da8a5e8a47aa027f04e00d02bc03da4e57e8e7cdd3a51807331a014f7ad6",
+    "data\\processed\\day03_v2\\book_tags_excluded.csv": "56248ba1f56a96e99e3703e5472382b156cec3df71fe58213db71f51c7c72f65",
+    "data\\processed\\day03_v2\\books.jsonl": "1bdfee32df6649c2513b528ef3aa47be3b730c5dc7d394850f698f4c90e54189",
+    "data\\processed\\day03_v2\\ratings.csv": "1ee8a97172bd6d97147a30d9cfb3029ac240bd27ba2aa9365981c051c65113f8",
+    "data\\processed\\day03_v2\\tags.csv": "87f316957564fa21c316a4f50afc87f07906f478f990eec027aaca00c536c449",
+    "data\\processed\\day03_v2\\to_read.csv": "d8aa721f08ede9f457f5895439b2415f0d1cb16e86a9e86de3f5f477a6c2fd2f",
+    "data\\processed\\day03_v2\\user_counts.csv": "d61ddacb8004aa1e0cd0e4814688fe2db814e9b263896fda613ac731cf6842a5",
+    "data\\processed\\descriptions_20261119\\xml_matches.csv": "fc13b453894721b931d693bc50eccf6bc4e516dfbce0b2a0a16a61ab6a5ce9c4",
+    "data\\raw\\goodbooks-10k-xml\\books_xml.zip": "f9724dddfbd4d744e97977c4d631684b2aa238739893749ffc66b7cb8f5f3a66",
+    "docs\\CATALOGUE_POLICY.md": "ac044d05eb5fa6befd0ac2de5d62b52e0c80d9307ab887a9963b33f8d8415896",
+    "docs\\DATA_MANIFEST.json": "e77f3113e87b80cbb64bd30af207df3b38857a2ae483cc8657489f50427b1900",
+    "docs\\EVALUATION_PROTOCOL.md": "7ff95dde20908d88024c56df60345126d26b647835a819ffa410dba9632939a2",
+    "reports\\day03\\preparation_v2_20261120\\manifest.json": "bcb8d72a31ea3ee630b49f105a66c71b32a78394a612227c61c2188f3e54771f"
+  },
+  "models_trained": false,
+  "namespaces": [
+    "users",
+    "cold_support",
+    "warm_pairs"
+  ],
+  "numpy": "2.4.6",
+  "outputs": {
+    "data\\processed\\day04_split_v1\\catalogue_ids.csv": "978f2b135c05748d48c697629d0ccedd2055857c2bf7e247e2b9b12965724a13",
+    "data\\processed\\day04_split_v1\\cold_test_ineligible.csv": "2dd944412428f1a502f02f05d20b09f9f6680cdb6396fe9067153b47ea4b385d",
+    "data\\processed\\day04_split_v1\\cold_test_support.csv": "ba47c05cde6cfa9a7464a89594f38a3605ee86c611760202e3660f8d9b8706b9",
+    "data\\processed\\day04_split_v1\\cold_test_target.csv": "fe934974866bc83b84a91bbe25dcf14eb2eed2be742dcc68e0637da9e1de1053",
+    "data\\processed\\day04_split_v1\\cold_validation_ineligible.csv": "2dd944412428f1a502f02f05d20b09f9f6680cdb6396fe9067153b47ea4b385d",
+    "data\\processed\\day04_split_v1\\cold_validation_support.csv": "adb07315dc392e332ec4c740e0c7963a393a639ced85159965a3da2c9549ed82",
+    "data\\processed\\day04_split_v1\\cold_validation_target.csv": "5c5f109677b1d4845131171f69653e5740c20fa5256e37326c7f8531c4b3af24",
+    "data\\processed\\day04_split_v1\\train.csv": "4e41d4f79b26c005916432d222001e456bf83efb6a5204a9e00ba629924d9e66",
+    "data\\processed\\day04_split_v1\\user_groups.csv": "61e37e50157d6f17091527e789356dd323a17a3a7f82efebf4ee76ca897d63a4",
+    "data\\processed\\day04_split_v1\\warm_test.csv": "ea2098e2ef30c8a7152ecfd78f29fa909562aacb881f8126631348b233062d6e",
+    "data\\processed\\day04_split_v1\\warm_validation.csv": "45ee08b36f903158a2af16fdae088fa9f4be3eddbe89351e8240d3582fc2b6dc"
+  },
+  "pandas": "3.1.1",
+  "protocol_snapshot_sha256": "7ff95dde20908d88024c56df60345126d26b647835a819ffa410dba9632939a2",
+  "protocol_version": "0.1",
+  "python": "3.11.9",
+  "script_sha256": "5ae48792deda969bcc6753d9733fbfede0a1fe5cf6c512e0315dc6311733ab5c",
+  "seed": 20261120,
+  "split_version": "day04_split_v1",
+  "test_evaluation_performed": false
+}

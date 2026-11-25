@@ -1,0 +1,23 @@
+{
+  "engine": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "loopback_only": true,
+  "isolated_cluster": true,
+  "scram_correct_login": true,
+  "scram_wrong_password_rejected": true,
+  "two_real_runtime_logins_rls_isolation": true,
+  "same_connection_transaction_context_reset": true,
+  "cross_user_update_zero_rows": true,
+  "forbidden_actions": {
+    "base_metadata_read": "rejected",
+    "auth_subject_update": "rejected",
+    "cross_user_insert": "rejected",
+    "owner_role_escalation": "rejected",
+    "truncate": "rejected"
+  },
+  "migration_sha256": "b7b47920ed2c0870cd5d807718a9b6b06875fbae5ce992f968374f126f1eae19",
+  "verifier_sha256": "acad7774341cc59ceeb549b4f23c5d97ded23b0c05afd04438f20561ccbd387a",
+  "existing_database_services_modified": false,
+  "neon_connected": false,
+  "oidc_verified": false,
+  "connection_pool_tested": false
+}

@@ -1,0 +1,24 @@
+{
+  "engine": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "checks_passed": 8,
+  "checks": [
+    "repeated issuer subject resolves same UUID",
+    "eight concurrent first-login resolutions create one account",
+    "same subject at another issuer remains distinct",
+    "repeat login does not overwrite app profile edits",
+    "broker lookup confined to transaction issuer subject and clears afterward",
+    "broker cannot access personal content source text or mutate existing identities",
+    "migration-owner and runtime connections cannot provision identities",
+    "exactly three intended synthetic accounts persisted"
+  ],
+  "synthetic_claims_only": true,
+  "external_oidc_exchange_verified": false,
+  "neon_connected": false,
+  "isolated_cluster_stopped_and_removed": true,
+  "sources_sha256": {
+    "booknest/identity.py": "553db217ccf5472803c733631cd1d6872b05506c1f7a413ebd64e53c564cfa85",
+    "db/migrations/003_identity_broker.sql": "4df884a61d2bc1e9f816d427bb3669a7899ab79b4a31b6ac54b9e045bb9d72b8",
+    "scripts/verify_identity.py": "c9569e36adafd0cae085af3ca0e375be2380fb5c9cc108429b3b848793dbf4d1",
+    "tests/test_identity.py": "8e005976ae2ecd318bac70066153a23a1e79cf8687256486137229b6cb2b7d1f"
+  }
+}

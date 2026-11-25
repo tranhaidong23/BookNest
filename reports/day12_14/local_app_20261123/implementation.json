@@ -1,0 +1,17 @@
+{
+  "python_tests_passed_at_implementation": 47,
+  "headless_app_flow_passed": true,
+  "visual_browser_qa_passed": false,
+  "persistence": "session_only",
+  "authenticated_accounts": false,
+  "database_connected": false,
+  "sources_sha256": {
+    "app/main.py": "edb5eefcdeaec03b94af0b15c6492735b0367afd84e2a9d909bb1087b0e3f699",
+    "app/assets/cover-placeholder.svg": "0ef0f63ab6953fcbaa6b1b6ab8956a258928d721447669a50cd7fa4da8440e75",
+    ".streamlit/config.toml": "481e8fecaa32d4139226058db193070b97e98d6374345b68bf7ce8df523a382c",
+    "booknest/recommender.py": "1676b04362ef4b85b95bb93973a238b067e428b049c3c7bf69e85fb3d2fe2d64",
+    "tests/test_app_local.py": "51bf9bd841a361e1f042b2e1289c2da19bac433b9df40675ccc8534a0f3c3019",
+    "scripts/verify_serving.py": "7b031562417a8a46c6bee5cfd8bc2c7588fca8c44ab654d600b02dde64fc7ca4",
+    "docs/LOCAL_DEMO.md": "c1dab1df45e8f230097a7f6712344c4a8795d92fd09b27f15c83190343be8766"
+  }
+}

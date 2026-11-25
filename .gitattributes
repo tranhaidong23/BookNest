@@ -1,0 +1,3 @@
+# Preserve exact bytes: historical evaluator/manifests are SHA-256 locked.
+# This disables line-ending normalization, not textual diffs.
+* -text

@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-11-19T17:32:11.743119+00:00",
+  "tests_passed": 19,
+  "tests_failed": 0,
+  "v2_replay_exit_code": 0,
+  "all_manifest_input_output_hashes_verified": true,
+  "to_read_byte_identical": true,
+  "split_created": false,
+  "models_trained": false,
+  "protocol_sha256": "7ff95dde20908d88024c56df60345126d26b647835a819ffa410dba9632939a2",
+  "historical_v1_replay_note": "Output data matched; manifest refused after script was revised during replay (script_sha256 changed). V1 retained; final v2 ran and replayed successfully with unchanged script."
+}

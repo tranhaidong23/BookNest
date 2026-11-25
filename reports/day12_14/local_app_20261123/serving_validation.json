@@ -1,0 +1,8 @@
+{
+  "adapter_sha256": "1676b04362ef4b85b95bb93973a238b067e428b049c3c7bf69e85fb3d2fe2d64",
+  "all_top10_and_fallback_match": true,
+  "model_version": "day06_item_knn_v1:s10_k200",
+  "test_data_read": false,
+  "validation_users_checked": 5342,
+  "verifier_sha256": "7b031562417a8a46c6bee5cfd8bc2c7588fca8c44ab654d600b02dde64fc7ca4"
+}

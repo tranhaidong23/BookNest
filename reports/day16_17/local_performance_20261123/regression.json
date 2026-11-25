@@ -1,0 +1,10 @@
+{
+  "unit_tests_passed": 68,
+  "unit_command": "python -B -m unittest discover -s tests",
+  "ui_checks_passed": 11,
+  "ui_evidence": "ui_regression/validation.json",
+  "source_sha256": {
+    "booknest/repository.py": "91bd0dfaf928c6565931270f5576df4b37baf7ac265450f925917fbb2d9fb193",
+    "booknest/account_service.py": "36b286de3c7f855a30bc5ca4f1bbf526f2247e082e15d3ce805e4c6c893f0cee"
+  }
+}

@@ -1,0 +1,16 @@
+.venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+artifacts/
+node_modules/
+.vscode/
+
+# Local source-metadata table held from the initial public commit.
+reports/day01/descriptions_20261119/matches.json

@@ -1,0 +1,30 @@
+{
+  "engine": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "checks_passed": 11,
+  "checks": [
+    "account catalogue renders approved records with pagination",
+    "UI rating writes reach actual PostgreSQL",
+    "UI shelf write persists",
+    "UI generation atomically saves ten approved unseen recommendations and snapshot",
+    "fresh UI session reloads stored ratings and shelf",
+    "second account UI sees no first-account profile or history",
+    "UI profile edit persists only for its owner",
+    "withdrawn support/candidate titles and stale stored explanations never replay in UI",
+    "owner can remove personal data for a withdrawn book without exposing metadata",
+    "UI owned run deletion persists and cascades",
+    "empty public catalogue does not fall back to research metadata"
+  ],
+  "actual_repository_and_database": true,
+  "auth_identity_injected_for_test": true,
+  "external_oidc_verified": false,
+  "browser_visual_qa": false,
+  "neon_connected": false,
+  "isolated_cluster_stopped_and_removed": true,
+  "sources_sha256": {
+    "app/account.py": "98c20bf020e3528c56d485f0d8a0bced4843dc0da5aac771700865bc7ffc65fa",
+    "app/main.py": "12699bbe02f1254610beb93348dd7240362b38910e73987d9fcd4df830e3e658",
+    "booknest/account_service.py": "226d4df224997dda9f708fd856cc8be2311d1ff3bb26533cbc6e14ec061991c6",
+    "booknest/repository.py": "d9875c4428c56769e8f9280ef7b5467cce9d0380a8eb2dcbe57313a243351ab8",
+    "scripts/verify_account_ui.py": "afc305ac114c804dfe4edab72081abeffef795e34cea6bd0c14c1728e573213b"
+  }
+}

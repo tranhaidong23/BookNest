@@ -1,0 +1,54 @@
+{
+  "runs": {
+    "d16_l10": {
+      "fit_seconds": 63.23617709998507,
+      "inference": {
+        "p50_ms": 2.1832,
+        "p95_ms": 4.4350249999999996,
+        "users": 5342
+      }
+    },
+    "d16_l50": {
+      "fit_seconds": 61.07015479996335,
+      "inference": {
+        "p50_ms": 2.2031,
+        "p95_ms": 4.535995,
+        "users": 5342
+      }
+    },
+    "d32_l10": {
+      "fit_seconds": 81.54461820004508,
+      "inference": {
+        "p50_ms": 2.21795,
+        "p95_ms": 4.104985,
+        "users": 5342
+      }
+    },
+    "d32_l50": {
+      "fit_seconds": 75.12630570004694,
+      "inference": {
+        "p50_ms": 1.8560500000000002,
+        "p95_ms": 4.0333950000000005,
+        "users": 5342
+      }
+    },
+    "cold_validation_k3": {
+      "p50_ms": 2.0097,
+      "p95_ms": 3.70062,
+      "users": 5342
+    },
+    "cold_validation_k10": {
+      "p50_ms": 2.0603499999999997,
+      "p95_ms": 3.6383799999999997,
+      "users": 5342
+    },
+    "warm_validation": {
+      "p50_ms": 1.8706,
+      "p95_ms": 3.4306499999999995,
+      "users": 42739
+    }
+  },
+  "platform": "Windows-10-10.0.26300-SP0",
+  "blas_threads_requested": 1,
+  "scope": "cold fold-in + all scores + exclude + full sort Top10; warm stored user factor; excludes load/fit/metrics"
+}

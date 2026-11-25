@@ -1,0 +1,198 @@
+{
+  "checked_at_utc": "2026-11-19T07:09:38.706458+00:00",
+  "python": "3.11.9",
+  "scope": "NEW offline XML sample check, same 20 book IDs as historical OL pilot; no new API lookup or full audit",
+  "sample_size": 20,
+  "sampling": "Historical seed 20261119; two books per 1000 book_id block",
+  "both_ids_match": 20,
+  "title_and_author_match": 20,
+  "nonempty_descriptions": 20,
+  "sample_description_coverage": 1.0,
+  "raw_csv_and_archive_hashes_verified_before_after": true,
+  "unit_tests_rerun_this_check": false,
+  "full_audit_rerun_this_check": false,
+  "public_rights_verified": false,
+  "quality_metrics": null,
+  "rows": [
+    {
+      "book_id": "814",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1048,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "493",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 707,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "1723",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1063,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "1529",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 324,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "2732",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 346,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "2789",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 126,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "3625",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 618,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "3222",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1517,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "5000",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 817,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "4969",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 737,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "5866",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 977,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "5022",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 765,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "6261",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 417,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "6580",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1415,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "7710",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 637,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "7455",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1733,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "8371",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 782,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "8883",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 878,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "9057",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1062,
+      "description_nonempty": true
+    },
+    {
+      "book_id": "9282",
+      "edition_id_matches": true,
+      "work_id_matches": true,
+      "title_matches": true,
+      "primary_author_matches": true,
+      "description_text_chars": 1206,
+      "description_nonempty": true
+    }
+  ]
+}

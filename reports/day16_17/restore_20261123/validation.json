@@ -1,0 +1,30 @@
+{
+  "postgres": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "checks_passed": 9,
+  "checks": [
+    "custom archive restored to separate empty database without overwriting source",
+    "exact restored data matches source",
+    "exact restored policies matches source",
+    "exact restored flags matches source",
+    "exact restored grants matches source",
+    "runtime repository retains separate owner ratings shelves and snapshot history",
+    "pending metadata and description remain hidden after restore",
+    "no-context RLS and forbidden raw-table or owner-role access remain enforced",
+    "restored ownership and cascade delete work while source database stays unchanged"
+  ],
+  "archive_bytes": 33025,
+  "archive_sha256": "7ad0497aed39f065582f2f229188c50d1bbb4ec0655d1e9657d4ff1a3751b68a",
+  "archive_deleted": true,
+  "synthetic_data_only": true,
+  "same_cluster_roles_preexisting": true,
+  "cross_cluster_roles_restore_verified": false,
+  "cloud_backup_verified": false,
+  "temporary_cluster_stopped_and_removed": true,
+  "source_sha256": {
+    "scripts/verify_backup_restore.py": "945753bbe3a813cfb5803d1acff84fa9780f249cd93061b76f5df3b965f7f37c",
+    "booknest/repository.py": "91bd0dfaf928c6565931270f5576df4b37baf7ac265450f925917fbb2d9fb193",
+    "db/migrations/001_initial.sql": "b7b47920ed2c0870cd5d807718a9b6b06875fbae5ce992f968374f126f1eae19",
+    "db/migrations/002_recommendation_support.sql": "524c8c32ada643355a2c2516b201a93fe0d4989b68d77bd4f22d39d7d3004d46",
+    "db/migrations/003_identity_broker.sql": "4df884a61d2bc1e9f816d427bb3669a7899ab79b4a31b6ac54b9e045bb9d72b8"
+  }
+}

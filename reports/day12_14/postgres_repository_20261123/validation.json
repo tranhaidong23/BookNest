@@ -1,0 +1,34 @@
+{
+  "engine": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "psycopg": "3.3.9",
+  "checks_passed": 16,
+  "checks": [
+    "own profile persisted and isolated",
+    "upsert ratings survive fresh connections and stay isolated",
+    "new repository instance reads durable state",
+    "delete is missing not zero and cannot affect another user",
+    "shelf CRUD isolated and persistent",
+    "public catalogue gate and literal search wildcards",
+    "bound parameters keep SQL-like display names literal",
+    "pending metadata write rejected without partial rating changes",
+    "repository refuses migration owner credentials",
+    "unprovisioned identity rejected",
+    "run items and support snapshot persist with cross-user history isolation",
+    "immutable snapshot and stale profile rejection",
+    "run support and items atomically roll back on late item failure",
+    "eight concurrent writes across fresh connections stay isolated",
+    "owned history deletion cascades snapshot and items",
+    "fresh runtime connection has no leaked user context"
+  ],
+  "isolated_cluster_stopped_and_removed": true,
+  "app_ui_connected": false,
+  "oidc_verified": false,
+  "neon_connected": false,
+  "sources_sha256": {
+    "booknest/repository.py": "d9875c4428c56769e8f9280ef7b5467cce9d0380a8eb2dcbe57313a243351ab8",
+    "scripts/local_postgres_fixture.py": "70e1515489b3ab42b37c8d5570fa04a581aaf1e36994c86d49ca2d7603ab8590",
+    "scripts/verify_repository.py": "29714fbd23065e647295bc0895ecbd9f4e2795b6565f951da89857af4af35b59",
+    "db/migrations/001_initial.sql": "b7b47920ed2c0870cd5d807718a9b6b06875fbae5ce992f968374f126f1eae19",
+    "db/migrations/002_recommendation_support.sql": "524c8c32ada643355a2c2516b201a93fe0d4989b68d77bd4f22d39d7d3004d46"
+  }
+}

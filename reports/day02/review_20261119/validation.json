@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-19",
+  "tests_passed": 9,
+  "exit_code": 0,
+  "output": "test_duplicate_and_conflicting_ratings (test_audit_extended.AuditTests.test_duplicate_and_conflicting_ratings) ... ok\ntest_isbn_known_checksums (test_audit_extended.AuditTests.test_isbn_known_checksums) ... ok\ntest_same_book_different_users_is_not_duplicate (test_audit_extended.AuditTests.test_same_book_different_users_is_not_duplicate) ... ok\ntest_to_read_pair_duplicates (test_audit_extended.AuditTests.test_to_read_pair_duplicates) ... ok\ntest_both_namespaced_ids_and_unique_record_required (test_descriptions.DescriptionTests.test_both_namespaced_ids_and_unique_record_required) ... ok\ntest_plain_text_preserves_words_and_discards_executable_content (test_descriptions.DescriptionTests.test_plain_text_preserves_words_and_discards_executable_content) ... ok\ntest_zero_padding_is_only_hypothesis (test_descriptions.DescriptionTests.test_zero_padding_is_only_hypothesis) ... ok\ntest_placeholder_and_edition_note_cannot_be_accepted_as_synopsis (test_review_queue.ReviewQueueTests.test_placeholder_and_edition_note_cannot_be_accepted_as_synopsis) ... ok\ntest_unknown_nonempty_requires_explicit_review (test_review_queue.ReviewQueueTests.test_unknown_nonempty_requires_explicit_review) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.074s\n\nOK\n",
+  "scope": "New run: original audit + descriptions + fail-closed triage tests",
+  "quality_metrics": null
+}

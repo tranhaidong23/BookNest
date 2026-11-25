@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/books_xml/books_xml.zip",
+  "revision": "6dd165b555a7b47b2dd36743a425776e641ff50c",
+  "retrieved_at_utc": "2026-11-19T07:02:41.390586+00:00",
+  "path": "data\\raw\\goodbooks-10k-xml\\books_xml.zip",
+  "bytes": 55777086,
+  "sha256": "f9724dddfbd4d744e97977c4d631684b2aa238739893749ffc66b7cb8f5f3a66",
+  "license_note": "Repository declares CC BY-SA 4.0; third-party descriptions and covers require separate rights review."
+}

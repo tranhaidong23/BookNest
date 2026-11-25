@@ -1,0 +1,105 @@
+{
+  "dataset": "Goodbooks-10k",
+  "revision": "6dd165b555a7b47b2dd36743a425776e641ff50c",
+  "downloaded_at_utc": "2026-11-17T12:13:24.229570+00:00",
+  "license_declared_by_repository": "CC BY-SA 4.0",
+  "files": [
+    {
+      "name": "README.md",
+      "path": "data/raw/goodbooks-10k/README.md",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/README.md",
+      "bytes": 2518,
+      "sha256": "c501df2a8426b8864c2fc4b5be368519ba6e46e7743249fad846b803b16b5cd2"
+    },
+    {
+      "name": "LICENSE",
+      "path": "data/raw/goodbooks-10k/LICENSE",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/LICENSE",
+      "bytes": 187,
+      "sha256": "1a459ea0f6e7f28d4eba7df0ddace58e0874e53dad4f787e0d206fdbf602147d"
+    },
+    {
+      "name": "books.csv",
+      "path": "data/raw/goodbooks-10k/books.csv",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/books.csv",
+      "bytes": 3286659,
+      "sha256": "4d21d0e0433128657c752e3a3d0405ac0ec11675d6c70c64cb0abf4ab1acb76a",
+      "columns": [
+        "book_id",
+        "goodreads_book_id",
+        "best_book_id",
+        "work_id",
+        "books_count",
+        "isbn",
+        "isbn13",
+        "authors",
+        "original_publication_year",
+        "original_title",
+        "title",
+        "language_code",
+        "average_rating",
+        "ratings_count",
+        "work_ratings_count",
+        "work_text_reviews_count",
+        "ratings_1",
+        "ratings_2",
+        "ratings_3",
+        "ratings_4",
+        "ratings_5",
+        "image_url",
+        "small_image_url"
+      ],
+      "rows": 10000
+    },
+    {
+      "name": "ratings.csv",
+      "path": "data/raw/goodbooks-10k/ratings.csv",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/ratings.csv",
+      "bytes": 72126826,
+      "sha256": "1ee8a97172bd6d97147a30d9cfb3029ac240bd27ba2aa9365981c051c65113f8",
+      "columns": [
+        "user_id",
+        "book_id",
+        "rating"
+      ],
+      "rows": 5976479
+    },
+    {
+      "name": "tags.csv",
+      "path": "data/raw/goodbooks-10k/tags.csv",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/tags.csv",
+      "bytes": 722480,
+      "sha256": "87f316957564fa21c316a4f50afc87f07906f478f990eec027aaca00c536c449",
+      "columns": [
+        "tag_id",
+        "tag_name"
+      ],
+      "rows": 34252
+    },
+    {
+      "name": "book_tags.csv",
+      "path": "data/raw/goodbooks-10k/book_tags.csv",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/book_tags.csv",
+      "bytes": 16665883,
+      "sha256": "8ff2f0659be9ddbe10bf47ba33b5b69024f893f017ac665236f15bc97d862950",
+      "columns": [
+        "goodreads_book_id",
+        "tag_id",
+        "count"
+      ],
+      "rows": 999912
+    },
+    {
+      "name": "to_read.csv",
+      "path": "data/raw/goodbooks-10k/to_read.csv",
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/6dd165b555a7b47b2dd36743a425776e641ff50c/to_read.csv",
+      "bytes": 9407334,
+      "sha256": "d8aa721f08ede9f457f5895439b2415f0d1cb16e86a9e86de3f5f477a6c2fd2f",
+      "columns": [
+        "user_id",
+        "book_id"
+      ],
+      "rows": 912705
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-19",
+  "unittest_exit_code": 0,
+  "tests_passed": 7,
+  "test_output": "test_duplicate_and_conflicting_ratings (test_audit_extended.AuditTests.test_duplicate_and_conflicting_ratings) ... ok\ntest_isbn_known_checksums (test_audit_extended.AuditTests.test_isbn_known_checksums) ... ok\ntest_same_book_different_users_is_not_duplicate (test_audit_extended.AuditTests.test_same_book_different_users_is_not_duplicate) ... ok\ntest_to_read_pair_duplicates (test_audit_extended.AuditTests.test_to_read_pair_duplicates) ... ok\ntest_both_namespaced_ids_and_unique_record_required (test_descriptions.DescriptionTests.test_both_namespaced_ids_and_unique_record_required) ... ok\ntest_plain_text_preserves_words_and_discards_executable_content (test_descriptions.DescriptionTests.test_plain_text_preserves_words_and_discards_executable_content) ... ok\ntest_zero_padding_is_only_hypothesis (test_descriptions.DescriptionTests.test_zero_padding_is_only_hypothesis) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.028s\n\nOK\n",
+  "original_manifest_all_files_verified": true,
+  "xml_archive_hash_verified": true,
+  "openlibrary_cache_files_verified": 21,
+  "xml_counts_reconciled": true,
+  "offline_replays_completed": [
+    "audit_source_descriptions.py",
+    "pilot_descriptions.py"
+  ],
+  "datasets_under_ignored_data_directory": true,
+  "quality_metrics": null,
+  "models_trained": false
+}

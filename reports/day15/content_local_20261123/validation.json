@@ -1,0 +1,26 @@
+{
+  "engine": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "checks_passed": 8,
+  "checks": [
+    "pending description yields fallback without source link",
+    "identity and content alone do not grant rights",
+    "all three approved gates expose reviewed introduction and source",
+    "revoked rights immediately restore fallback",
+    "revoked content review restores fallback despite approved rights",
+    "pending cover URL is hidden",
+    "cover approval is independent from description rights",
+    "metadata revocation hides whole public record"
+  ],
+  "synthetic_fixture_only": true,
+  "real_content_approved": 0,
+  "provider_called": false,
+  "semantic_quality_evaluated": false,
+  "cluster_stopped_and_removed": true,
+  "source_sha256": {
+    "booknest/content_review.py": "9163037ee1fa73e52f283eb63743fe84c64808826b6192725852a4b65f7dc107",
+    "scripts/prepare_content_review.py": "3d34a05cf961ea73afa974f4cc9d12d1a827238696f3bc145cf1ebe1bd39b0c5",
+    "scripts/verify_content_gate.py": "c9b2576e9e78fb59fea9e55c7d3b707dac594cf0f61a648dd3e8f4dbbfb8175d",
+    "tests/test_content_review.py": "9c60e3780fd210378072fba9c847a8df1b4875a6d3e20c579fa89e6184d2967e",
+    "db/migrations/001_initial.sql": "b7b47920ed2c0870cd5d807718a9b6b06875fbae5ce992f968374f126f1eae19"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "fit_seconds": {
+    "bias_l10": 3.119938399991952,
+    "bias_l50": 3.4039034999441355
+  },
+  "inference": {
+    "cold_validation_k3": {
+      "popularity": {
+        "p50_ms": 0.0038,
+        "p95_ms": 0.0084,
+        "users": 5342
+      },
+      "bias_l10": {
+        "p50_ms": 0.0036,
+        "p95_ms": 0.008,
+        "users": 5342
+      },
+      "bias_l50": {
+        "p50_ms": 0.0031,
+        "p95_ms": 0.0065,
+        "users": 5342
+      }
+    },
+    "cold_validation_k5": {
+      "popularity": {
+        "p50_ms": 0.0042,
+        "p95_ms": 0.0089,
+        "users": 5342
+      },
+      "bias_l10": {
+        "p50_ms": 0.004,
+        "p95_ms": 0.008294999999999981,
+        "users": 5342
+      },
+      "bias_l50": {
+        "p50_ms": 0.0034,
+        "p95_ms": 0.007,
+        "users": 5342
+      }
+    },
+    "cold_validation_k10": {
+      "popularity": {
+        "p50_ms": 0.0039,
+        "p95_ms": 0.0099,
+        "users": 5342
+      },
+      "bias_l10": {
+        "p50_ms": 0.0037,
+        "p95_ms": 0.0092,
+        "users": 5342
+      },
+      "bias_l50": {
+        "p50_ms": 0.0032,
+        "p95_ms": 0.0076,
+        "users": 5342
+      }
+    },
+    "warm_validation": {
+      "popularity": {
+        "p50_ms": 0.0045,
+        "p95_ms": 0.0103,
+        "users": 42739
+      },
+      "bias_l10": {
+        "p50_ms": 0.0039,
+        "p95_ms": 0.009,
+        "users": 42739
+      },
+      "bias_l50": {
+        "p50_ms": 0.0034,
+        "p95_ms": 0.0075,
+        "users": 42739
+      }
+    }
+  },
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "scope": "single process cached static order lookup/filter/Top10; excludes fit/load/metrics/serialization"
+}

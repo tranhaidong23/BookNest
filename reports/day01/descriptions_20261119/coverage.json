@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "seed": 20261119,
+  "sample_size": 20,
+  "sampling": "2 uniformly sampled books per contiguous 1000 book_id block; small diagnostic pilot, not full catalogue coverage",
+  "catalogue_size": 10000,
+  "catalogue_isbn_candidate_status": {
+    "leading_zero_hypothesis": 6587,
+    "raw_checksum_valid": 2690,
+    "unavailable": 723
+  },
+  "sample_isbn_candidate_status": {
+    "raw_checksum_valid": 5,
+    "leading_zero_hypothesis": 13,
+    "unavailable": 2
+  },
+  "edition_records_found": 18,
+  "description_available_before_matching": 15,
+  "automated_consistent_candidates": 14,
+  "consistent_candidates_with_description": 13,
+  "goodreads_edition_id_agrees": 7,
+  "request_errors": 0,
+  "full_catalogue_description_coverage": null,
+  "quality_metrics": null,
+  "raw_hashes_verified_before_and_after": true
+}

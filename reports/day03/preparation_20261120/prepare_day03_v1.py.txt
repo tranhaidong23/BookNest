@@ -1,0 +1,175 @@
+"""Local derived v1 and descriptive EDA; no split, fit or public export."""
+import hashlib
+import json
+import platform
+import xml.etree.ElementTree as ET
+import zipfile
+from pathlib import Path
+import pandas as pd
+from audit_extended import sha, verify_manifest, isbn_valid
+from audit_source_descriptions import clean_text
+
+ROOT = Path(__file__).resolve().parents[1]
+RAW = ROOT/'data/raw/goodbooks-10k'
+DATA = ROOT/'data/processed/day03_v1'
+OUT = ROOT/'reports/day03/preparation_20261120'
+RULE = 'day03_v1'
+
+def frozen_write(path, payload):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        if path.read_bytes() != payload:
+            raise ValueError('Existing artifact differs; create a new version: '+str(path))
+    else:
+        path.write_bytes(payload)
+
+def write_json(path, obj):
+    frozen_write(path, (json.dumps(obj, ensure_ascii=False, sort_keys=True, indent=2)+'\n').encode('utf-8'))
+
+def clean_tags(frame):
+    """Retain original row numbers; quarantine all conflicting keys, never sum counts."""
+    frame = frame.copy()
+    frame['source_row'] = range(2, len(frame)+2)
+    keys = ['goodreads_book_id', 'tag_id']
+    duplicate = frame.duplicated(keys+['count'])
+    removed = frame.loc[duplicate].assign(reason='exact_duplicate_extra')
+    unique = frame.loc[~duplicate].copy()
+    conflict = unique.duplicated(keys, keep=False)
+    negative = unique['count'] < 0
+    quarantine = unique.loc[conflict | negative].copy()
+    quarantine['reason'] = ['conflicting_key_and_negative' if c and n else
+                            'conflicting_key' if c else 'negative_count'
+                            for c,n in zip(conflict[conflict|negative], negative[conflict|negative])]
+    return unique.loc[~(conflict|negative)].copy(), pd.concat([removed,quarantine]).sort_values('source_row')
+
+def validate_ratings(frame, book_ids):
+    if frame.isna().any().any() or not frame['rating'].isin([1,2,3,4,5]).all():
+        raise ValueError('Missing or invalid ratings')
+    if not frame['book_id'].isin(book_ids).all() or (frame['user_id']<=0).any():
+        raise ValueError('Unknown book or invalid user')
+    if frame.duplicated(['user_id','book_id']).any():
+        raise ValueError('Duplicate/conflicting ratings: do not silently change labels')
+
+def year_value(raw):
+    if not raw:
+        return None, 'missing'
+    try:
+        value = float(raw)
+        if not value.is_integer():
+            return None, 'non_integral_or_invalid'
+        value = int(value)
+    except (ValueError, OverflowError):
+        return None, 'non_integral_or_invalid'
+    # Preserve historical/BCE evidence; flags are not automatic error verdicts.
+    return value, 'review_non_positive' if value<=0 else 'review_after_snapshot' if value>2017 else 'parsed'
+
+def main():
+    original = json.loads((ROOT/'docs/DATA_MANIFEST.json').read_text(encoding='utf-8'))
+    xm = json.loads((ROOT/'reports/day01/descriptions_20261119/xml_manifest.json').read_text(encoding='utf-8'))
+    catalogue_path = ROOT/'data/processed/catalogue_v1/catalogue.jsonl'
+    cm = json.loads((ROOT/'reports/day02/catalogue_v1_20261119/manifest.json').read_text(encoding='utf-8'))
+    archive = ROOT/xm['path']
+    verify_manifest(original)
+    assert sha(archive)==xm['sha256']
+    assert sha(catalogue_path)==cm['artifact']['sha256']
+    books = pd.read_csv(RAW/'books.csv',dtype=str,keep_default_na=False)
+    assert not books['book_id'].duplicated().any()
+    assert not books['goodreads_book_id'].duplicated().any()
+    index_path = ROOT/'data/processed/descriptions_20261119/xml_matches.csv'
+    index = pd.read_csv(index_path,dtype=str,keep_default_na=False).set_index('book_id',verify_integrity=True)
+    catalogue = {str(r['book_id']):r for r in map(json.loads,catalogue_path.read_text(encoding='utf-8').splitlines())}
+    assert set(books['book_id'])==set(index.index)==set(catalogue)
+    records=[]
+    print('Verifying XML identity and normalizing metadata/text.',flush=True)
+    with zipfile.ZipFile(archive) as z:
+        for b in books.to_dict('records'):
+            x=index.loc[b['book_id']]
+            body=z.read(x['member'])
+            assert hashlib.sha256(body).hexdigest()==x['member_sha256']
+            root=ET.fromstring(body)
+            node=root if root.tag=='book' else root.find('book')
+            assert node is not None
+            assert node.findtext('id','').strip()==b['goodreads_book_id']
+            assert node.findtext('work/id','').strip()==b['work_id']
+            desc=clean_text(node.findtext('description',''))
+            status=catalogue[b['book_id']]['content_status']
+            y,yflag=year_value(b['original_publication_year'])
+            record={k:b[k] or None for k in ['title','authors','original_title','language_code']}
+            record.update(book_id=int(b['book_id']),goodreads_book_id=int(b['goodreads_book_id']),
+                work_id=int(b['work_id']),original_publication_year=y,year_status=yflag,
+                description_text=None if not desc or status=='reject_placeholder' else desc,
+                description_status=status,public_intro_ready=False,feature_text_approved=False,
+                source_revision=original['revision'],source_url=x['source_url'],
+                xml_member=x['member'],xml_member_sha256=x['member_sha256'],rule_version=RULE)
+            for field,tag in [('isbn10','isbn'),('isbn13','isbn13')]:
+                value=node.findtext(tag,'').strip().replace('-','').replace(' ','').upper()
+                valid=bool(value) and len(value)==(10 if field=='isbn10' else 13) and isbn_valid(value)
+                record[field]=value if valid else None
+                record[field+'_status']='valid_xml' if valid else 'missing_xml' if not value else 'invalid_xml'
+            records.append(record)
+    records.sort(key=lambda r:r['book_id'])
+    for field in ['isbn10','isbn13']:
+        counts=pd.Series([r[field] for r in records]).dropna().value_counts()
+        for r in records:
+            r[field+'_shared']=bool(r[field] and counts[r[field]]>1)
+    frozen_write(DATA/'books.jsonl', ''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in records).encode())
+    ratings=pd.read_csv(RAW/'ratings.csv',dtype='int64')
+    validate_ratings(ratings,set(books['book_id'].astype(int)))
+    # Byte-identical copy preserves labels and order; dtype is specified by consumers.
+    frozen_write(DATA/'ratings.csv',(RAW/'ratings.csv').read_bytes())
+    to_read=pd.read_csv(RAW/'to_read.csv',dtype='int64')
+    assert not to_read.duplicated(['user_id','book_id']).any()
+    assert to_read['book_id'].isin(ratings['book_id']).all()
+    assert to_read['user_id'].isin(ratings['user_id']).all()
+    frozen_write(DATA/'to_read.csv',(RAW/'to_read.csv').read_bytes())
+    tags=pd.read_csv(RAW/'tags.csv',keep_default_na=False)
+    assert not tags['tag_id'].duplicated().any()
+    bt=pd.read_csv(RAW/'book_tags.csv',dtype='int64')
+    assert bt['tag_id'].isin(tags['tag_id']).all()
+    assert bt['goodreads_book_id'].isin(books['goodreads_book_id'].astype(int)).all()
+    cleaned,removed=clean_tags(bt)
+    mapping=books[['book_id','goodreads_book_id']].astype('int64')
+    cleaned=cleaned.merge(mapping,on='goodreads_book_id',validate='many_to_one').sort_values(['book_id','tag_id'])
+    for name,frame in [('book_tags_clean.csv',cleaned),('book_tags_excluded.csv',removed)]:
+        frozen_write(DATA/name,frame.to_csv(index=False,lineterminator='\n').encode())
+    frozen_write(DATA/'tags.csv',(RAW/'tags.csv').read_bytes())
+    print('Computing descriptive statistics; no split or training.',flush=True)
+    uc=ratings.groupby('user_id').size(); bc=ratings.groupby('book_id').size().sort_values(ascending=False)
+    dist=ratings['rating'].value_counts().sort_index()
+    overlap=pd.MultiIndex.from_frame(to_read).isin(pd.MultiIndex.from_frame(ratings[['user_id','book_id']])).sum()
+    eda={'books':len(books),'users':len(uc),'ratings':len(ratings),'rating_distribution':{str(k):int(v) for k,v in dist.items()},
+         'rating_mean_descriptive_only':float(ratings['rating'].mean()),
+         'density':len(ratings)/(len(uc)*len(books)),
+         'user_count_quantiles':uc.quantile([0,.01,.25,.5,.75,.99,1]).to_dict(),
+         'book_count_quantiles':bc.quantile([0,.01,.25,.5,.75,.99,1]).to_dict(),
+         'top_100_books_rating_share':float(bc.head(100).sum()/len(ratings)),
+         'users_with_at_least_11_ratings':int((uc>=11).sum()),
+         'users_with_at_least_20_ratings':int((uc>=20).sum()),
+         'to_read_rating_overlap':int(overlap),
+         'tags_input':len(bt),'tags_retained':len(cleaned),'tags_exclusion_reasons':removed['reason'].value_counts().to_dict(),
+         'metadata_null_counts':{k:sum(r[k] is None for r in records) for k in ['isbn10','isbn13','original_publication_year','original_title','language_code','description_text']},
+         'shared_isbn_books':{k:sum(r[k+'_shared'] for r in records) for k in ['isbn10','isbn13']},
+         'year_flags':pd.Series([r['year_status'] for r in records]).value_counts().to_dict(),
+         'full_data_descriptive_only':True,'models_trained':False,'quality_metrics':None}
+    write_json(OUT/'eda.json',eda)
+    for name,frame in [('rating_distribution.csv',dist.rename_axis('rating').reset_index(name='count')),
+                       ('user_counts.csv',uc.rename_axis('user_id').reset_index(name='ratings')),
+                       ('book_counts.csv',bc.rename_axis('book_id').reset_index(name='ratings'))]:
+        # Detailed user/item counts stay with local dataset, not report exports.
+        dest=OUT if name=='rating_distribution.csv' else DATA
+        frozen_write(dest/name,frame.to_csv(index=False,lineterminator='\n').encode())
+    verify_manifest(original)
+    assert sha(archive)==xm['sha256'] and sha(catalogue_path)==cm['artifact']['sha256']
+    assert sha(DATA/'ratings.csv')==sha(RAW/'ratings.csv')
+    inputs=[ROOT/'docs/DATA_MANIFEST.json',archive,catalogue_path,index_path,ROOT/'docs/CATALOGUE_POLICY.md']
+    manifest={'version':RULE,'source_revision':original['revision'],'python':platform.python_version(),'pandas':pd.__version__,
+        'inputs':{str(p.relative_to(ROOT)):sha(p) for p in inputs},
+        'outputs':{str(p.relative_to(ROOT)):sha(p) for p in sorted(DATA.iterdir()) if p.is_file()},
+        'script_sha256':sha(Path(__file__)),'raw_zip_catalogue_verified_before_after':True,
+        'ratings_byte_identical':True,'to_read_not_used_as_negative':True,
+        'tags_feature_approved':False,'description_feature_approved':False,'split_created':False,'models_trained':False}
+    write_json(OUT/'manifest.json',manifest)
+    print(json.dumps(eda,ensure_ascii=True,indent=2))
+
+if __name__=='__main__':
+    main()

@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=A+Severe+Mercy%3A+A+Story+of+Faith%2C+Tragedy+and+Triumph+Sheldon+Vanauken&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:22.841834+00:00",
+    "body_sha256": "005584610cef2afb975785ec34a31860e1b2ca974c94e3c56d3d89070d98cad7",
+    "path": "data\\external\\wikipedia\\gap_20261119\\8120.json",
+    "cache_sha256": "d677c03eb03ef90b38f34c2fb59fd92988dd6628cdfa39f36c6753fc83b170bb"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Cape+Fear+John+D.+MacDonald&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:25.034213+00:00",
+    "body_sha256": "72501288471a570117a78a1c81d4515b1184a74208545a502a799e5add3e5507",
+    "path": "data\\external\\wikipedia\\gap_20261119\\9685.json",
+    "cache_sha256": "dfbf216b837cfb6b737f78e1284d17e31419ef66d31d71221971cfbbcd8c01f8"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Once+a+Runner+John+L.+Parker+Jr.&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:27.135407+00:00",
+    "body_sha256": "c1a82de635ac100f74981142fd93883d36bdc65942099ad14f339892e50648c5",
+    "path": "data\\external\\wikipedia\\gap_20261119\\8947.json",
+    "cache_sha256": "1bbc2d6dbc100188aad3076b908bc48234c370ea33ee1a53f8790afac596afcc"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Competitive+Strategy%3A+Techniques+for+Analyzing+Industries+and+Competitors+Michael+E.+Porter&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:29.238004+00:00",
+    "body_sha256": "0102a3d5e46821612c303ce6a5c905803f3134c4a8067cffbaddb9ea3dcc9855",
+    "path": "data\\external\\wikipedia\\gap_20261119\\7547.json",
+    "cache_sha256": "2ee97ec54d06c8be59b45827a202609983a881cde6e2056d3a05a981f73b3cdc"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=The+Looming+Tower%3A+Al-Qaeda+and+the+Road+to+9%2F11+Lawrence+Wright&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:32.090808+00:00",
+    "body_sha256": "cbaa71e6569575d746f8505d773ee713b49666335f2cc736c6acd68a85c32102",
+    "path": "data\\external\\wikipedia\\gap_20261119\\6317.json",
+    "cache_sha256": "ec57e1291d0a9730f2d2973697de6283969e3f7f141ccef9f7e695e16294fe58"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Dracula+Roy+Thomas&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:34.074297+00:00",
+    "body_sha256": "ebe79e59b4f86eedf2480264af8434f891dcdfffcd52dbbb0bc79f213af0996e",
+    "path": "data\\external\\wikipedia\\gap_20261119\\4765.json",
+    "cache_sha256": "e544bd36b38b8dabbe8a94ed07cde4feb74c6109f18aa6337ef31714b0292b7a"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Nana%2C+Vol.+1+Ai+Yazawa&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:36.068311+00:00",
+    "body_sha256": "2d18db88c0305da74e8979698b41a9c98489ba8653491995093dbaab60a25783",
+    "path": "data\\external\\wikipedia\\gap_20261119\\3651.json",
+    "cache_sha256": "f7c83d1db20d4d6f507d2f9b7cb14b45a8ced172b92adcba239449400c72a926"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Joseph+Had+a+Little+Overcoat+Simms+Taback&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:38.275925+00:00",
+    "body_sha256": "fffc0c650622dc0f6100a208cbe3b982847a822488de0be79616516e5ee4a724",
+    "path": "data\\external\\wikipedia\\gap_20261119\\7878.json",
+    "cache_sha256": "72fbdf9e750e69473cf502ad741f8b5d9bec9e2afd0551f51769d06ea76f9df7"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Betty+Crocker%27s+Cookbook+Betty+Crocker&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:40.233295+00:00",
+    "body_sha256": "12783089a2837448f375da3e393212a1608763c3a52de989da373742cb13f17f",
+    "path": "data\\external\\wikipedia\\gap_20261119\\3159.json",
+    "cache_sha256": "6aced9413cdce1cfeed788a29f9861df4fdf22c41f9989f56b74ab6ecf35c25e"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Krakatoa%3A+The+Day+the+World+Exploded+Simon+Winchester&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:29:42.313999+00:00",
+    "body_sha256": "f24bf2922c180e2e134992b8a9b98903a0b4f22028136fd78ce482e5c93dd2c9",
+    "path": "data\\external\\wikipedia\\gap_20261119\\7917.json",
+    "cache_sha256": "c423cdf5beeb78a7626faebf477af9452b0eadb9c73f5fd7af8d2447a088eb2b"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Eragon%2C+Eldest+%26+Brisingr+Christopher+Paolini&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:30:39.173852+00:00",
+    "body_sha256": "50a0704b9127b1759c85300d425901c3ea4de9f331fd3f1b14222ae024c1492c",
+    "path": "data\\external\\wikipedia\\gap_20261119\\3636_retry1.json",
+    "cache_sha256": "41b50269e6e563b967a21d8e7d09fef29d23a11c90482ca87afc768884095c49"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Tender+at+the+Bone%3A+Growing+Up+at+the+Table+Ruth+Reichl&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:30:48.007655+00:00",
+    "body_sha256": "c044fab08816c11762afb320664926492f5d5be93884c3dfae2f12eed340ca71",
+    "path": "data\\external\\wikipedia\\gap_20261119\\3546_retry1.json",
+    "cache_sha256": "676ac048b5d6dc46de0293247dc6413a76920ccdf3cb42142660b3cc514fb769"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Preacher%2C+Volume+9%3A+Alamo+Garth+Ennis&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:30:56.810188+00:00",
+    "body_sha256": "785e9dceca25288efe637af4db68b410f7aefa311e01acd5e50e4965ddf6842b",
+    "path": "data\\external\\wikipedia\\gap_20261119\\5752_retry1.json",
+    "cache_sha256": "a2826e691d82c3a722d79ec160b479cf5cf232b56ae3a57642385b8040370a60"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Franz+Kafka%27s+The+Castle+David+Fishelson&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:05.698328+00:00",
+    "body_sha256": "f99f00ee4c3cc0a1b0a38a7a0f9004559b6163f816d7941a917d87d68ae23a5a",
+    "path": "data\\external\\wikipedia\\gap_20261119\\4622_retry1.json",
+    "cache_sha256": "845e4457737150a57c186406b160e082f852f6bb4152d705d5c1f42ef63fe2f7"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=The+Princess+and+the+Pea+Janet+Stevens&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:15.140136+00:00",
+    "body_sha256": "7f50a301f0e0873bc554b0fc5d859f7be963e2d865d33b8e591a25988425f950",
+    "path": "data\\external\\wikipedia\\gap_20261119\\7408_retry1.json",
+    "cache_sha256": "ecf1d2a9a9600b5cf05bab4c702b53998a46a2325dc22830c0d478571985d85a"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=The+Te+of+Piglet+Benjamin+Hoff&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:24.470201+00:00",
+    "body_sha256": "32988486dab26d171527d48b9e792002b43ac20b0a8bac6bfd958f8032f68210",
+    "path": "data\\external\\wikipedia\\gap_20261119\\6390_retry1.json",
+    "cache_sha256": "3ccbca5a9ac41bbae92700b0ac823d0eb6b8a6e8798715a3ee6360f49b80650e"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Double+Fudge+Judy+Blume&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:33.949162+00:00",
+    "body_sha256": "2d97c8cc9ffa21ad8b0acbaba5be5fa1ed1a1d85df74885d2ac8fed594d86a61",
+    "path": "data\\external\\wikipedia\\gap_20261119\\6716_retry1.json",
+    "cache_sha256": "9c7f9cb3dbea635c1ca14303801137796ccf48aa23ea5b150941303697eec29f"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Superfudge+Judy+Blume&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:42.695098+00:00",
+    "body_sha256": "b8ccfe5548c603cf48993116ae064316acc8b45bd619cda04f4ff859d3e16149",
+    "path": "data\\external\\wikipedia\\gap_20261119\\2215_retry1.json",
+    "cache_sha256": "f4181887ff2b56c4b287c69253dd4df45afdd2e9820d588d09decf40520db458"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=Now+We+Are+Six+A.A.+Milne&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:31:51.535566+00:00",
+    "body_sha256": "3530de2b03540ffe1d4899d51a73094442ed6a0867d08864854bbec2f94c013f",
+    "path": "data\\external\\wikipedia\\gap_20261119\\7696_retry1.json",
+    "cache_sha256": "9eea58d5659c42e0a4b4f9bfc3409c7da3465463b5f74a2c798002d78c8ed375"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=1Q84+BOOK+3+Haruki+Murakami&gsrlimit=3&gsrnamespace=0&prop=extracts%7Crevisions%7Cinfo%7Cpageprops&exintro=1&explaintext=1&rvprop=ids%7Ctimestamp&inprop=url&ppprop=disambiguation&format=json&formatversion=2",
+    "retrieved_at_utc": "2026-11-19T16:30:00.737003+00:00",
+    "body_sha256": "e43b3307612599a2402f85b8863091480b6e168ea4e1e7333630d42ac01be06c",
+    "path": "data\\external\\wikipedia\\gap_20261119\\6120.json",
+    "cache_sha256": "1fb2b9c89c4d47ca47dd01b32e4b58b3c1842148551842144474b7bfdb5af1bb"
+  }
+]

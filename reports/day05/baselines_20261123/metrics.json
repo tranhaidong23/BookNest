@@ -1,0 +1,224 @@
+{
+  "bootstrap_scope": "validation, post-selection; not independent test evidence",
+  "paired_bootstrap_vs_popularity": {
+    "ndcg": {
+      "mean_delta": -0.23861008953687235,
+      "percentile_95": [
+        -0.24485803287107782,
+        -0.23224746801071913
+      ],
+      "users": 5341
+    },
+    "recall": {
+      "mean_delta": -0.03232803018877003,
+      "percentile_95": [
+        -0.03321448713466343,
+        -0.031379836259494524
+      ],
+      "users": 5341
+    }
+  },
+  "results": {
+    "cold_validation_k10": {
+      "bias_l10": {
+        "catalogue_coverage": 0.0012,
+        "ndcg": 0.006474035851381646,
+        "precision": 0.005916495038382326,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7029128033308777,
+          "pairs": 545103,
+          "rmse": 0.8847944431671433
+        },
+        "recall": 0.0008412324179711625,
+        "recommended_distinct_books": 12,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "bias_l50": {
+        "catalogue_coverage": 0.0012,
+        "ndcg": 0.017399769399182405,
+        "precision": 0.01780565437184048,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7343528696669863,
+          "pairs": 545103,
+          "rmse": 0.9224801064774583
+        },
+        "recall": 0.0025348853041232693,
+        "recommended_distinct_books": 12,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "global_mean": {
+        "rating_metrics": {
+          "mae": 0.7711460381445645,
+          "pairs": 545103,
+          "rmse": 0.9877180386767591
+        }
+      },
+      "popularity": {
+        "catalogue_coverage": 0.0015,
+        "ndcg": 0.26269272996669457,
+        "precision": 0.2445609436435125,
+        "ranking_users": 5341,
+        "recall": 0.03593896036635441,
+        "recommended_distinct_books": 15,
+        "users": 5342,
+        "users_without_positive_target": 1
+      }
+    },
+    "cold_validation_k3": {
+      "bias_l10": {
+        "catalogue_coverage": 0.0011,
+        "ndcg": 0.006445471110761407,
+        "precision": 0.005879048867253323,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7330407696082579,
+          "pairs": 545103,
+          "rmse": 0.918223047059475
+        },
+        "recall": 0.0008346214315733876,
+        "recommended_distinct_books": 11,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "bias_l50": {
+        "catalogue_coverage": 0.0011,
+        "ndcg": 0.017324876851622362,
+        "precision": 0.017730762029582476,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7498172458598626,
+          "pairs": 545103,
+          "rmse": 0.9414484671518891
+        },
+        "recall": 0.0025250858257848414,
+        "recommended_distinct_books": 11,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "global_mean": {
+        "rating_metrics": {
+          "mae": 0.7711460381445645,
+          "pairs": 545103,
+          "rmse": 0.9877180386767591
+        }
+      },
+      "popularity": {
+        "catalogue_coverage": 0.0012,
+        "ndcg": 0.25360204692718286,
+        "precision": 0.2351057854334395,
+        "ranking_users": 5341,
+        "recall": 0.03446190390973981,
+        "recommended_distinct_books": 12,
+        "users": 5342,
+        "users_without_positive_target": 1
+      }
+    },
+    "cold_validation_k5": {
+      "bias_l10": {
+        "catalogue_coverage": 0.0011,
+        "ndcg": 0.006473542791045484,
+        "precision": 0.005916495038382326,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7213083703446311,
+          "pairs": 545103,
+          "rmse": 0.9048514771673166
+        },
+        "recall": 0.0008412324179711625,
+        "recommended_distinct_books": 11,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "bias_l50": {
+        "catalogue_coverage": 0.0011,
+        "ndcg": 0.017336831831067736,
+        "precision": 0.017730762029582476,
+        "ranking_users": 5341,
+        "rating_metrics": {
+          "mae": 0.7448912538590922,
+          "pairs": 545103,
+          "rmse": 0.9355070705888074
+        },
+        "recall": 0.0025250858257848414,
+        "recommended_distinct_books": 11,
+        "users": 5342,
+        "users_without_positive_target": 1
+      },
+      "global_mean": {
+        "rating_metrics": {
+          "mae": 0.7711460381445645,
+          "pairs": 545103,
+          "rmse": 0.9877180386767591
+        }
+      },
+      "popularity": {
+        "catalogue_coverage": 0.0013,
+        "ndcg": 0.25594692136794006,
+        "precision": 0.2375585096423891,
+        "ranking_users": 5341,
+        "recall": 0.034853116014554875,
+        "recommended_distinct_books": 13,
+        "users": 5342,
+        "users_without_positive_target": 1
+      }
+    },
+    "warm_validation": {
+      "bias_l10": {
+        "catalogue_coverage": 0.0022,
+        "ndcg": 0.0008763229701779411,
+        "precision": 0.0006774876499647142,
+        "ranking_users": 42510,
+        "rating_metrics": {
+          "mae": 0.6679577242153285,
+          "pairs": 458825,
+          "rmse": 0.8530250921900745
+        },
+        "recall": 0.0010193717780168027,
+        "recommended_distinct_books": 22,
+        "users": 42739,
+        "users_without_positive_target": 229
+      },
+      "bias_l50": {
+        "catalogue_coverage": 0.002,
+        "ndcg": 0.0021359665688456225,
+        "precision": 0.0017948717948717949,
+        "ranking_users": 42510,
+        "rating_metrics": {
+          "mae": 0.686172672422722,
+          "pairs": 458825,
+          "rmse": 0.8659303154966498
+        },
+        "recall": 0.002528222329635838,
+        "recommended_distinct_books": 20,
+        "users": 42739,
+        "users_without_positive_target": 229
+      },
+      "global_mean": {
+        "rating_metrics": {
+          "mae": 0.7741817242470932,
+          "pairs": 458825,
+          "rmse": 0.9909463635417545
+        }
+      },
+      "popularity": {
+        "catalogue_coverage": 0.0043,
+        "ndcg": 0.052784570866957294,
+        "precision": 0.03819571865443425,
+        "ranking_users": 42510,
+        "recall": 0.0528980746607049,
+        "recommended_distinct_books": 43,
+        "users": 42739,
+        "users_without_positive_target": 229
+      }
+    }
+  },
+  "selected_bias": "bias_l50",
+  "selection": "cold-validation k5 NDCG then Recall",
+  "test_evaluated": false,
+  "train_mean": 3.9189875567177443,
+  "train_rows": 3863209
+}

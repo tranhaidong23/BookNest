@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-19",
+  "unittest_passed": 4,
+  "failed": 0,
+  "scope": "Audit helper fixtures: duplicate vs conflict, user isolation of pair keys, to_read duplicate keys, known ISBN checksums.",
+  "full_dataset_audit": "passed",
+  "explore_script": "passed",
+  "raw_hashes_verified_before_and_after": true,
+  "new_packages_installed": false,
+  "quality_metrics": null,
+  "commit_push_deploy": false,
+  "source_sha256": {
+    "scripts/explore_data.py": "dcb7d492f6e24a123d5746dcff6bdff461fa089d26b7e8dc97f4770827613e6b",
+    "scripts/audit_extended.py": "cd1602ea18e000d7b0734d37383bd57e3ba584fa7e0edd39e4c27668affe3103",
+    "tests/test_audit_extended.py": "8b7ea99eb212260ff619218b87246019c1fc5274e981e263a1d53e557f6b01f1",
+    "scripts/collect_goodbooks.py": "0be51136163744a0a4bf68d1c776a1570a80d1c33bc3e4b7cb7f11e0bfc44ce5"
+  }
+}

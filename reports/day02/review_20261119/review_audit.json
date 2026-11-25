@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-11-19T07:22:42.031188+00:00",
+  "queue_rows": 358,
+  "status_counts": {
+    "missing_source": 315,
+    "title_flag_resolved_only": 9,
+    "hold_volume_specificity": 11,
+    "needs_more_evidence": 22,
+    "reject_placeholder": 1
+  },
+  "agent_reviewed_nonempty": 43,
+  "automated_empty_rechecks": 315,
+  "independent_human_review": false,
+  "benchmark_books_kept": 10000,
+  "screening_candidates_not_semantically_approved": 9651,
+  "description_holds": 349,
+  "product_catalogue_finalized": false,
+  "public_rights_cleared": 0,
+  "impact_if_candidate_filter_were_applied": {
+    "all_ratings": 5976479,
+    "retained_ratings": 5885338,
+    "excluded_ratings": 91141,
+    "retained_fraction": 0.9847500509915621,
+    "users_all": 53424,
+    "users_retained": 53424,
+    "users_losing_all_ratings": 0,
+    "held_book_languages": {
+      "eng": 103,
+      "(missing)": 111,
+      "en-US": 106,
+      "en-GB": 9,
+      "jpn": 4,
+      "ara": 8,
+      "ind": 5,
+      "fre": 1,
+      "per": 1,
+      "pol": 1
+    }
+  },
+  "raw_hashes_verified_before_after": true,
+  "quality_metrics": null,
+  "source_hashes": {
+    "queue": "f69bfbacbe61a25469ea887cb70fab60430086c650ade0ac16021ad74805c381",
+    "script": "b2dd03bfa1ecec371eb7566b446db9bca2aad69db3bb411c9b67bc192ff7558c",
+    "archive": "f9724dddfbd4d744e97977c4d631684b2aa238739893749ffc66b7cb8f5f3a66"
+  },
+  "outputs": {
+    "data\\processed\\review_20261119\\review_decisions.json": "9cad96f938246057c7cb38101065c38e7d43e495982a8f46d3786ac4b6bd0a3d",
+    "data\\processed\\review_20261119\\screening_candidate_ids.json": "1736bc968fa2e76e445fea99ea47b2fd3cf8d90ab1fe115fefa5e835f633dc28"
+  }
+}

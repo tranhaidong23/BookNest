@@ -1,0 +1,13 @@
+{
+  "benchmark_ratings_exported": 0,
+  "descriptions_exported": 0,
+  "inputs": {
+    "data\\processed\\day03_v2\\books.jsonl": "1bdfee32df6649c2513b528ef3aa47be3b730c5dc7d394850f698f4c90e54189",
+    "reports\\day03\\preparation_v2_20261120\\manifest.json": "bcb8d72a31ea3ee630b49f105a66c71b32a78394a612227c61c2188f3e54771f"
+  },
+  "output": "data\\processed\\day11_operational_v1\\books.json",
+  "output_sha256": "2f58d2fb4a9e5aaaf551fb675e9f28f9bca07df16fec39279494406a279bf2ec",
+  "public_metadata_approved": 0,
+  "rows": 10000,
+  "script_sha256": "6022f24d2bc4b91c9ece4016d04952bc73feb37e8c51e86d9cf016ecae0e0de9"
+}

@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-11-19T18:09:43.762096+00:00",
+  "tests_passed": 24,
+  "tests_failed": 0,
+  "manifest_inputs_outputs_verified": true,
+  "split_files_verified": 11,
+  "script_audit_protocol_hashes_verified": true,
+  "partition_total_equals_source": true,
+  "full_data_assignment_recomputed_with_reversed_input_and_changed_labels": true,
+  "csv_export_readback_verified": true,
+  "separate_full_cli_replay_run": false,
+  "model_fit_or_performance_evaluation": false,
+  "manifest_sha256": "8c37dc89f8d164f70c5823555cd3f91c8c5e54d0d9d164fce2a3dc295aa3aa88"
+}

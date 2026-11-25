@@ -1,0 +1,11 @@
+{
+  "staged_files": 194,
+  "staged_bytes": 833506,
+  "all_staged_blobs_equal_worktree_bytes": true,
+  "secret_pattern_findings": [],
+  "forbidden_paths_staged": false,
+  "held_metadata_file_staged": false,
+  "git_tree": null,
+  "commit_created": false,
+  "pushed": false
+}
